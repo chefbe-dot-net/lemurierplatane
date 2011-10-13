@@ -3,12 +3,17 @@ require 'dialect'
 require 'sinatra/base'
 require 'logger'
 class WebApp < Sinatra::Base
-  use Rack::CommonLogger, STDOUT
 
   # Root of the web application
   ROOT = File.expand_path('../../public', __FILE__)
 
+  # Resolves `file` from the public folder
+  def self._(file)
+    File.join(ROOT, file)
+  end
+
   ############################################################## Configuration
+  use Rack::CommonLogger, File.new(_("../logs/#{environment}.log"), "w")
 
   # Serve public pages from public
   set :public_folder, ROOT
@@ -55,7 +60,7 @@ class WebApp < Sinatra::Base
 
   # Resolves `file` from the public folder
   def _(file)
-    File.expand_path("../../public/#{file}", __FILE__)
+    self.class._(file)
   end
 
   ############################################################## Auto start
