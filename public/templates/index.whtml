@@ -1,0 +1,22 @@
+#{
+stylesheets:
+  - /css/style.css
+scripts:
+  - /js/jquery-1.6.4.min.js
+}
+<!DOCTYPE html>
+<html lang="${lang}">
+  <head>
+    <meta charset="utf-8" />
+    <title>Le Mûrier Platane &mdash; ${title}</title>
+    *{stylesheets as s}{<link rel="stylesheet" href="@{s}" />}{!{"\n"}  }
+    <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    *{scripts as s}{<script src="@{s}"></script>}{!{"\n"}  }
+  </head>
+  <body>
+    <h1>${title}</h1>
+    <div>${text}</div>
+  </body>
+</html>
