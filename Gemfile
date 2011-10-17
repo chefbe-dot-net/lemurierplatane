@@ -3,6 +3,7 @@ source :rubygems
 group :runtime do
   gem "sinatra", "~> 1.3.0"
   gem "wlang", "~> 0.10.2"
+  gem "http", "= 0.0.1"
   gem "grit", :git => "https://blambeau@github.com/blambeau/grit.git"
   gem "websync", :path => "../websync"
 end
