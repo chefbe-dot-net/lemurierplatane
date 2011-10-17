@@ -16,4 +16,8 @@ end
 require 'websync/rake_tasks'
 WebSync::RakeTasks.new do |t|
   t.working_dir = File.dirname(__FILE__)
+  sync = WebSync::Passenger::Client.new do |cl|
+    cl.url = "www.lemurierplatane.com/reload"
+  end
+  t.listen :repository_synchronized, sync
 end
