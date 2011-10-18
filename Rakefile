@@ -17,12 +17,12 @@ end
 require 'websync/rake_tasks'
 WebSync::RakeTasks.new do |t|
   t.working_dir = File.dirname(__FILE__)
-  t.listen(:repository_synchronized) do
+  t.listen(:repository_synchronized) do |*args|
     sync = WebSync::Passenger::Client.new do |cl|
       cl.url = "http://www.lemurierplatane.fr/reload"
     end
     print "\nSending hook to production server..."
-    res = sync.call
+    res = sync.call(*args)
     print "\n#{res}\n"
   end
 end
