@@ -1,10 +1,8 @@
-require 'bundler/setup'
-here = File.dirname(__FILE__)
+require 'bundler'
+Bundler.setup(:runtime)
 
-$LOAD_PATH.unshift ::File.join(here, "lib")
-require 'websync'
-map '/reload' do
-  run WebSync::Passenger::Server.new(here)
+map '/redeploy' do
+  run lambda{|env| `ruby hooks/server/redeploy`}
 end
 
 require 'webapp'

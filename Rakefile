@@ -13,37 +13,3 @@ task :test do
   files = Dir["test/test_*.rb"].join(" ")
   exec "bundle exec ruby -Ilib -Itest test/runall.rb"
 end
-
-namespace :ws do
-
-  def client
-    require 'websync'
-    WebSync::ClientAgent.new(File.dirname(__FILE__))
-  end
-
-  def safe(message)
-    puts message
-    res = yield
-    puts "done."
-    res
-  end
-
-  task :import do
-    safe("Importing bug fixes..."){
-      client.sync_local
-    }
-  end
-
-  task :save, :message do |t, args|
-    safe("Saving..."){ 
-      client.save(args[:message]) 
-    }
-  end
-
-  task :deploy do
-    safe("Deploying..."){
-      client.sync_repo
-    }
-  end
-
-end
