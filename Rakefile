@@ -14,15 +14,36 @@ task :test do
   exec "bundle exec ruby -Ilib -Itest test/runall.rb"
 end
 
-require 'websync/rake_tasks'
-WebSync::RakeTasks.new do |t|
-  t.working_dir = File.dirname(__FILE__)
-  t.listen(:repository_synchronized) do |*args|
-    sync = WebSync::Passenger::Client.new do |cl|
-      cl.url = "http://www.lemurierplatane.fr/reload"
-    end
-    print "\nSending hook to production server..."
-    res = sync.call(*args)
-    print "\n#{res}\n"
+namespace :ws do
+
+  def client
+    require 'websync'
+    WebSync::ClientAgent.new(File.dirname(__FILE__))
   end
+
+  def safe(message)
+    puts message
+    res = yield
+    puts "done."
+    res
+  end
+
+  task :import do
+    safe("Importing bug fixes..."){
+      client.sync_local
+    }
+  end
+
+  task :save, :message do |t, args|
+    safe("Saving..."){ 
+      client.save(args[:message]) 
+    }
+  end
+
+  task :deploy do
+    safe("Deploying..."){
+      client.sync_repo
+    }
+  end
+
 end
