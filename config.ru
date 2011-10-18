@@ -1,5 +1,7 @@
+require 'bundler/setup'
+
 here = File.dirname(__FILE__)
-use Rack::CommonLogger, ::File.join(here, 'logs/lemurierplatane.log')
+use Rack::CommonLogger, ::File.join(here, 'logs', 'lemurierplatane.log')
 
 $LOAD_PATH.unshift ::File.join(here, "lib")
 require 'websync'

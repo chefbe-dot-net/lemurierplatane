@@ -13,8 +13,6 @@ class WebApp < Sinatra::Base
   end
 
   ############################################################## Configuration
-  use Rack::CommonLogger, File.new(_("../logs/#{environment}.log"), "w")
-
   # Serve public pages from public
   set :public_folder, ROOT
 
