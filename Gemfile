@@ -5,7 +5,7 @@ group :runtime do
   gem "wlang", "~> 0.10.2"
   gem "http", "= 0.0.1"
   gem "grit", :git => "https://blambeau@github.com/blambeau/grit.git"
-  gem "websync", :path => "../websync"
+  gem "websync", :git => "https://blambeau@github.com/blambeau/websync.git"
 end
 
 group :test do
