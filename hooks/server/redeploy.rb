@@ -8,7 +8,7 @@ agent.listen(:production_up_to_date) do |*args|
   puts "Done."
 end
 begin
-  agent.synchronize
+  puts "Nothing to be done." unless agent.synchronize
 rescue Exception => ex
   puts "Something goes wrong here..."
   puts ex.message
