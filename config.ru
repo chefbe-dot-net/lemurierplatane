@@ -1,8 +1,10 @@
-$LOAD_PATH.unshift ::File.expand_path("../lib", __FILE__)
+here = File.dirname(__FILE__)
+use Rack::CommonLogger, ::File.join(here, 'logs/lemurierplatane.log')
 
+$LOAD_PATH.unshift ::File.join(here, "lib")
 require 'websync'
 map '/reload' do
-  run WebSync::Passenger::Server.new(::File.dirname( __FILE__))
+  run WebSync::Passenger::Server.new(here)
 end
 
 require 'webapp'
