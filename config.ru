@@ -6,13 +6,9 @@ here = File.dirname(__FILE__)
 map '/redeploy' do
   run lambda{|env|
     script = ::File.join(here, 'hooks/server/redeploy.rb')
-    result = `#{script}`
-    ::File.open(::File.join(here, 'logs/restart.log'), 'w'){|io|
-      io << result << "\n"
-    }
     [200, 
      {"Content-type" => "text/plain"},
-     [result] ]
+     [ `#{script}` ] ]
   }
 end
 
