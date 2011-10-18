@@ -7,4 +7,11 @@ agent.listen(:production_up_to_date) do |*args|
   puts `touch tmp/restart.txt`
   puts "Done."
 end
-agent.synchronize
+begin
+  agent.synchronize
+rescue Exception => ex
+  puts "Something goes wrong here..."
+  puts ex.message
+  puts ex.backtrace.join("\n")
+  exit(1)
+end
