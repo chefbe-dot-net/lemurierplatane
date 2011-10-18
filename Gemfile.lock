@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/blambeau/grit.git
-  revision: d6c4abaca9f7bf5b0306ded97f2eda10c24eb06c
+  revision: 099fed8c32ffe910836abbabc9a6997de55e5783
   specs:
     grit (2.4.1)
       diff-lcs (~> 1.1)
@@ -9,7 +9,7 @@ GIT
 
 GIT
   remote: git://github.com/blambeau/websync.git
-  revision: 08178945943b03c41189e1a13a4b2484ec3c0e61
+  revision: b8cff92000ca6435bb809cde9a1249252e50c432
   specs:
     websync (0.0.1)
       grit (~> 2.4.1)
