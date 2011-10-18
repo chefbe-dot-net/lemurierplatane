@@ -9,7 +9,7 @@ GIT
 
 GIT
   remote: git://github.com/blambeau/websync.git
-  revision: de37b6c03194a7b881195c65d35b88df54d34ea5
+  revision: 326f63388f0d0b82c30860d07a1e1c22a2f01873
   specs:
     websync (0.0.1)
       grit (~> 2.4.1)
