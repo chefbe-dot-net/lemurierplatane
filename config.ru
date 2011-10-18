@@ -6,9 +6,12 @@ here = File.dirname(__FILE__)
 map '/redeploy' do
   run lambda{|env|
     script = ::File.join(here, 'hooks/server/redeploy.rb')
+    result = Bundler::with_original_env do 
+      Kernel.`(script)
+    end
     [200, 
      {"Content-type" => "text/plain"},
-     [ `#{script}` ] ]
+     [ result ] ]
   }
 end
 

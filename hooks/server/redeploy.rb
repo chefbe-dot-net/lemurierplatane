@@ -3,9 +3,7 @@ require File.expand_path('../../commons', __FILE__)
 
 agent = WebSync::ServerAgent.new($root)
 agent.listen(:production_up_to_date) do |*args|
-  Bundler::with_original_env do
-    puts `#{File.expand_path('../restart.rb', __FILE__)}`
-  end
+  load(File.expand_path('../restart.rb', __FILE__))
 end
 begin
   puts "Nothing to be done." unless agent.synchronize
