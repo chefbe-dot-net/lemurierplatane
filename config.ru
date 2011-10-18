@@ -2,10 +2,11 @@ require 'bundler'
 Bundler.setup(:runtime)
 
 map '/redeploy' do
-  run lambda{|env| 
+  run lambda{|env|
+    script = ::File.expand_path('../hooks/server/restart.rb', __FILE__)
     [200, 
      {"Content-type" => "text/plain"},
-     [`ruby hooks/server/redeploy`] ]
+     [`#{script}`] ]
   }
 end
 
