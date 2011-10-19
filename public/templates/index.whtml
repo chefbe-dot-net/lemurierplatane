@@ -14,9 +14,13 @@ scripts:
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
     *{scripts as s}{<script src="@{s}"></script>}{!{"\n"}  }
+    ?{environment == :development}{
+      <script src="admin/js/websync-admin.js"></script>
+      <script>$(document).ready(function(){ webSyncInstrument("admin/") });</script>
+    }
   </head>
   <body>
     <h1>${title}</h1>
-    <div>${text}</div>
+    <div>+{text}</div>
   </body>
 </html>

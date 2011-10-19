@@ -1,4 +1,5 @@
 require 'yaml'
+require 'kramdown'
 require 'dialect'
 require 'sinatra/base'
 class WebApp < Sinatra::Base
@@ -51,7 +52,7 @@ class WebApp < Sinatra::Base
       :lang  => lang, 
       :picture => data["picture"],
       :title   => data["title"][lang],
-      :text    => data["text"][lang]
+      :text    => Kramdown::Document.new(data["text"][lang]).to_html
     }
     WLang::file_instantiate tpl, ctx
   end
