@@ -1,8 +1,8 @@
 #{
 stylesheets:
-  - /css/style.css
+  - css/style.css
 scripts:
-  - /js/jquery-1.6.4.min.js
+  - js/jquery-1.6.4.min.js
 }
 <!DOCTYPE html>
 <html lang="${lang}">
