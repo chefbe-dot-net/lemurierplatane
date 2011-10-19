@@ -1,7 +1,6 @@
 require 'yaml'
 require 'dialect'
 require 'sinatra/base'
-require 'logger'
 class WebApp < Sinatra::Base
 
   # Root of the web application
@@ -44,10 +43,11 @@ class WebApp < Sinatra::Base
   ############################################################## Helpers
 
   # Serves a given wlang file
-  def serve(file, lang = self.class.default_lang)
+  def serve(file, lang = settings.default_lang)
     data = YAML::load(File.read(_(file)))
     tpl  = _('templates/index.whtml')
     ctx  = {
+      :environment => settings.environment,
       :lang  => lang, 
       :picture => data["picture"],
       :title   => data["title"][lang],
