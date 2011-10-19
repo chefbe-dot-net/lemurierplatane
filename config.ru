@@ -1,3 +1,5 @@
+ENV["RACK_ENV"] = "production"
+
 require 'bundler'
 Bundler.setup(:runtime)
 
