@@ -4,7 +4,7 @@ Bundler.setup(:runtime)
 
 desc %q{Run the website locally}
 task :run do
-  exec "bundle exec ruby -Ilib lib/webapp.rb"
+  exec "rackup client.ru"
 end
 
 desc %q{Run all tests}
