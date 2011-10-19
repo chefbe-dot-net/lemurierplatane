@@ -16,7 +16,7 @@ scripts:
     *{scripts as s}{<script src="@{s}"></script>}{!{"\n"}  }
     ?{environment == :development}{
       <script src="admin/js/websync-admin.js"></script>
-      <script>$(document).ready(function(){ webSyncInstrument("admin/") });</script>
+      <script>$(document).ready(function(){ webSyncInstrument("admin/", true) });</script>
     }
   </head>
   <body>
