@@ -7,8 +7,9 @@ GIT
       mime-types (~> 1.15)
       posix-spawn (~> 0.3.6)
 
-PATH
-  remote: ../websync
+GIT
+  remote: git://github.com/blambeau/websync.git
+  revision: eacea13d1831d23c66dff62477d8c7387084cbfb
   specs:
     websync (0.0.1)
       grit (~> 2.4.1)
