@@ -38,7 +38,7 @@ class ClientAgent < WebSync::ClientAgent
         logger.info("[#{Time.now}] Repository synchronized, notifying server now...")
         begin
           require 'http'
-          res = Http.post("http://www.lemurierplatane.fr/redeploy")
+          res = Http.post("http://www.lemurierplatane.fr/websync/redeploy")
           logger.debug("[#{Time.now}] Production notified: #{res}")
         rescue Exception => ex
           logger.error("[#{Time.now}] Notification failed: #{ex.message}")
