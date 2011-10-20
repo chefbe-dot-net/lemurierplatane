@@ -13,10 +13,10 @@ map '/' do
   run WebApp
 end
 
-$LOAD_PATH.unshift(File.join(here, 'websync-admin', 'lib'))
 require 'websync/middleware'
+require 'client_agent'
 map '/websync/' do
-  WebSync::Middleware.set :agent, WebSync::ClientAgent.new(here)
+  WebSync::Middleware.set :agent, ClientAgent.new(here)
   run WebSync::Middleware
 end
 
