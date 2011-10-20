@@ -14,10 +14,9 @@ map '/' do
 end
 
 $LOAD_PATH.unshift(File.join(here, 'websync-admin', 'lib'))
-require 'websync'
-require 'websync/admin'
-map '/admin/' do
-  WebSync::Admin.set :agent, WebSync::ClientAgent.new(here)
-  run WebSync::Admin
+require 'websync/middleware'
+map '/websync/' do
+  WebSync::Middleware.set :agent, WebSync::ClientAgent.new(here)
+  run WebSync::Middleware
 end
 
