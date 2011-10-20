@@ -38,9 +38,14 @@ class ServerAgent < WebSync::ServerAgent
         end
       end
 
+      listen :"restart-request" do |*args|
+        logger.debug("[#{Time.now}] User restart-request received.")
+        restart_application
+      end
+
       listen :production_up_to_date do |*args|
         logger.info("[#{Time.now}] Working dir synchronized, restarting now...")
-        restart_application
+        signal :"restart-request"
       end
 
     end
