@@ -1,4 +1,4 @@
-$LOAD_PATH.unshift(File.join(here = File.dirname(__FILE__), 'lib'))
+$LOAD_PATH.unshift(File.join(File.dirname(__FILE__), 'lib'))
 
 def with_bundler(what)
   require 'rubygems' unless RUBY_VERSION >= "1.9"
@@ -27,7 +27,7 @@ namespace :srv do
   def server_agent
     with_bundler(:runtime)
     require 'server_agent'
-    ServerAgent.new(here)
+    ServerAgent.new(File.dirname(__FILE__))
   end
 
   desc %q{Restart the server website (bundle + restart.txt)}
