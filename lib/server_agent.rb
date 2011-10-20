@@ -22,7 +22,7 @@ class ServerAgent < WebSync::ServerAgent
     def restart_application
       Bundler::with_original_env do
         Dir.chdir(ROOT) do
-          logger.debug "[#{Time.now}] Executing bundle install"
+          logger.debug "Executing bundle install"
           logger.debug `bundle install --deployment --local`
           `touch tmp/restart.txt`
         end
@@ -32,19 +32,20 @@ class ServerAgent < WebSync::ServerAgent
     def install_events
 
       listen :"redeploy-request" do |*args|
-        logger.debug("[#{Time.now}] User redeploy-request received.")
+        logger.debug("User redeploy-request received.")
         unless synchronize
-          logger.info("[#{Time.new}] Nothing to redeploy for now.")
+          logger.info("Nothing to redeploy for now.")
         end
       end
 
       listen :"restart-request" do |*args|
-        logger.debug("[#{Time.now}] User restart-request received.")
+        logger.debug("User restart-request received.")
         restart_application
+        logger.info("Application restarted successfully.")
       end
 
       listen :production_up_to_date do |*args|
-        logger.info("[#{Time.now}] Working dir synchronized, restarting now...")
+        logger.info("Working dir synchronized, restarting now...")
         signal :"restart-request"
       end
 
