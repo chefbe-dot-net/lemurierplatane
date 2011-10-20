@@ -4,7 +4,8 @@ class ClientAgent < WebSync::ClientAgent
 
   def logger
     @logger ||= begin 
-      logger = Logger.new $stdout
+      path = File.expand_path('../../logs/client-agent.log', __FILE__)
+      logger = Logger.new(path, 'monthly')
       logger.level = Logger::DEBUG
       logger
     end
