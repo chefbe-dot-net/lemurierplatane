@@ -20,7 +20,7 @@ class ServerAgent < WebSync::ServerAgent
   private
 
     def restart_application
-      Bundle::with_original_env do
+      Bundler::with_original_env do
         Dir.chdir(ROOT) do
           logger.debug "[#{Time.now}] Executing bundle install"
           logger.debug `bundle install --deployment --local`
