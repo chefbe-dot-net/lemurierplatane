@@ -7,8 +7,9 @@ GIT
       mime-types (~> 1.15)
       posix-spawn (~> 0.3.6)
 
-PATH
-  remote: ../websync
+GIT
+  remote: git://github.com/blambeau/websync.git
+  revision: 8d69d97f94259f504d7c1bfcf8b670c87b8d2b51
   specs:
     websync (0.0.1)
       grit (~> 2.4.1)
@@ -40,7 +41,7 @@ GEM
       rack (>= 1.0)
     rake (0.9.2)
     rubyzip (0.9.4)
-    selenium-webdriver (2.9.0)
+    selenium-webdriver (2.9.1)
       childprocess (>= 0.2.1)
       ffi (= 1.0.9)
       json_pure

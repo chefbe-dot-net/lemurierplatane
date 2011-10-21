@@ -5,8 +5,8 @@ group :runtime do
   gem "wlang", "~> 0.10.2"
   gem "kramdown", "~> 0.13.3"
   gem "grit", :git => "git://github.com/blambeau/grit.git"
-  #gem "websync", :git => "git://github.com/blambeau/websync.git"
-  gem "websync", :path => "../websync"
+  gem "websync", :git => "git://github.com/blambeau/websync.git"
+  #gem "websync", :path => "../websync"
 
   gem "http", "~> 0.0.1"
   gem "rake", "~> 0.9.2"
