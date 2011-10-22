@@ -52,16 +52,28 @@ class WebApp < Sinatra::Base
       :lang  => lang, 
       :picture => data["picture"],
       :title   => data["title"][lang],
-      :text    => Kramdown::Document.new(data["text"][lang]).to_html
+      :text    => kramdown(data["text"][lang])
     }
-    WLang::file_instantiate tpl, ctx
+    WLang::instantiate encode(File.read(tpl)), ctx, "whtml"
   end
 
   # Resolves `file` from the public folder
   def _(file)
     self.class._(file)
   end
+  
+  def kramdown(text)
+    encode(Kramdown::Document.new(text).to_html)
+  end
 
+  def encode(text)
+     if text.respond_to?(:force_encoding)
+       text.force_encoding("UTF-8")
+     else
+       text
+     end
+  end
+  
   ############################################################## Auto start
 
   # start the server if ruby file executed directly
