@@ -1,15 +1,15 @@
 ﻿#{
 stylesheets:
-  - css/style.css
-  - css/bootstrap.min.css
+  - /css/style.css
+  - /css/bootstrap.min.css
 scripts:
-  - js/jquery-1.6.4.min.js
+  - /js/jquery-1.6.4.min.js
 }
 <!DOCTYPE html>
 <html lang="${lang}">
   <head>
     <meta charset="utf-8" />
-    <title>Le Mûrier Platane &mdash; ${title}</title>
+    <title>Le Mûrier Platane &mdash; Chambres d'hôtes à Capestang</title>
     *{stylesheets as s}{<link rel="stylesheet" href="@{s}" />}{!{"\n"}  }
     <!--[if lt IE 9]>
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -17,14 +17,24 @@ scripts:
     *{scripts as s}{<script src="@{s}"></script>}{!{"\n"}  }
     ?{environment == :development}{
       <script src="websync/js/websync-admin.js"></script>
-      <script>$(document).ready(function(){ websync.start("websync/") });</script>
+      <!-- <script>$(document).ready(function(){ websync.start("websync/") });</script> -->
     }
   </head>
   <body>
-    <div id="main">
-      <div class="container">
-        <h1>${title}</h1>
-        <div>+{text}</div>
+    <div id="main" class="container">
+      <div id="header">
+        <<+{header.whtml share all}
+      </div>
+      <div id="body" class="container-fluid">
+        <div class="sidebar">
+          +{menu}
+        </div>
+        <div class="content">
+          +{text}
+        </div>
+      </div>
+      <div id="footer">
+        Condition Générales &mdash; Last update: 2011-10-24
       </div>
     </div>
   </body>

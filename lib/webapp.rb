@@ -26,12 +26,14 @@ class WebApp < Sinatra::Base
 
   ############################################################## Routes
 
-  get '/' do
-    serve 'index.yml'
+  get '/:lang/:chapter/' do
+    file = _("pages/#{params[:lang]}/#{params[:chapter]}/index.md")
+    serve file, params[:lang]
   end
 
-  get %r{/(en|fr|nl)} do |lang|
-    serve 'index.yml', lang
+  get '/:lang/:chapter/:page' do
+    file = _("pages/#{params[:lang]}/#{params[:chapter]}/#{params[:page]}.md")
+    serve file, params[:lang]
   end
 
   ############################################################## Error handling
@@ -45,16 +47,22 @@ class WebApp < Sinatra::Base
 
   # Serves a given wlang file
   def serve(file, lang = settings.default_lang)
-    data = YAML::load(File.read(_(file)))
-    tpl  = _('templates/index.whtml')
-    ctx  = {
-      :environment => settings.environment,
-      :lang  => lang, 
-      :picture => data["picture"],
-      :title   => data["title"][lang],
-      :text    => kramdown(data["text"][lang])
-    }
-    WLang::instantiate encode(File.read(tpl)), ctx, "whtml"
+    if File.exists?(file)
+      menu = kramdown(encode(File.read(_("pages/#{lang}/menu.md"))))
+      text = kramdown(encode(File.read(file)))
+      tpl  = _('templates/index.whtml')
+      ctx  = {
+        :environment => settings.environment,
+        :lang        => lang, 
+        :text        => text,
+        :menu        => menu
+      }
+      wlangtpl = WLang::template(encode(File.read(tpl)), "whtml")
+      wlangtpl.source_file = tpl
+      wlangtpl.instantiate ctx
+    else
+      not_found
+    end
   end
 
   # Resolves `file` from the public folder

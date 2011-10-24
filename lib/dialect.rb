@@ -5,6 +5,7 @@ WLang::dialect('whtml', '.whtml') do
   rules    WLang::RuleSet::Basic
   rules    WLang::RuleSet::Imperative
   rules    WLang::RuleSet::Encoding
+  rules    WLang::RuleSet::Buffering
 
   rule '#' do |parser,offset|
     yaml, reached = parser.parse(offset, "wlang/dummy")
