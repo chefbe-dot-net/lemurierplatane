@@ -8,18 +8,25 @@ body {
   padding: 10px 15px;
   opacity: 0.85; }
 
+#links {
+  position: absolute;
+  left: 50%;
+  margin-left: -392px;
+  top: 10px; 
+  z-index: 0; }
+#links .left {
+  display: block;
+  float: left; }
+#links .right {
+  display: block;
+  float: right; }
+
 #header {
   text-align: center; 
   border-bottom: 15px solid #627535; 
   margin-bottom: 10px; }
 #header .links {
   position: absolute; }
-#header .links .left {
-  display: block;
-  float: left; }
-#header .links .right {
-  display: block;
-  float: right; }
 
 #header h1, 
 #header h2, 

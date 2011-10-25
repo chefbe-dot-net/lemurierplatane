@@ -1,20 +1,17 @@
 require 'yaml'
 require 'kramdown'
+require 'epath'
 require 'dialect'
 require 'sinatra/base'
 class WebApp < Sinatra::Base
 
-  # Root of the web application
-  ROOT = File.expand_path('../../public', __FILE__)
-
-  # Resolves `file` from the public folder
-  def self._(file)
-    File.join(ROOT, file)
-  end
+  # PUBLIC of the web application
+  PUBLIC  = Path.dir.dir/:public
+  PAGES   = PUBLIC/:pages
 
   ############################################################## Configuration
   # Serve public pages from public
-  set :public_folder, ROOT
+  set :public_folder, PUBLIC
 
   # A few configuration options for logging and errors
   set :logging, true
@@ -26,14 +23,17 @@ class WebApp < Sinatra::Base
 
   ############################################################## Routes
 
-  get '/:lang/:chapter/' do
-    file = _("pages/#{params[:lang]}/#{params[:chapter]}/index.md")
-    serve file, params[:lang]
+  get '/' do
+    file, lang = decode_url("")
+    text = kramdown(encode(file.read))
+    wlang(:lang => lang, :text => text, :template => :index)
   end
 
-  get '/:lang/:chapter/:page' do
-    file = _("pages/#{params[:lang]}/#{params[:chapter]}/#{params[:page]}.md")
-    serve file, params[:lang]
+  get %r{^/(.+)} do
+    file, lang = decode_url(params[:captures].first)
+    menu = kramdown(encode((PAGES/lang/"menu.md").read))
+    text = kramdown(encode(file.read))
+    wlang(:lang => lang, :text => text, :menu => menu, :template => :page)
   end
 
   ############################################################## Error handling
@@ -46,42 +46,44 @@ class WebApp < Sinatra::Base
   ############################################################## Helpers
 
   # Serves a given wlang file
-  def serve(file, lang = settings.default_lang)
-    if File.exists?(file)
-      menu = kramdown(encode(File.read(_("pages/#{lang}/menu.md"))))
-      text = kramdown(encode(File.read(file)))
-      tpl  = _('templates/index.whtml')
-      ctx  = {
-        :environment => settings.environment,
-        :lang        => lang, 
-        :text        => text,
-        :menu        => menu
-      }
-      wlangtpl = WLang::template(encode(File.read(tpl)), "whtml")
-      wlangtpl.source_file = tpl
-      wlangtpl.instantiate ctx
-    else
-      not_found
+  def wlang(ctx)
+    ctx = ctx.merge(:environment => settings.environment)
+    tpl = PUBLIC/:templates/"html.whtml"
+    wlangtpl = WLang::template(encode(tpl.read), "whtml")
+    wlangtpl.source_file = tpl
+    wlangtpl.instantiate ctx
+  end
+  
+  module Tools
+
+    def kramdown(text)
+      encode(Kramdown::Document.new(text).to_html)
     end
-  end
 
-  # Resolves `file` from the public folder
-  def _(file)
-    self.class._(file)
-  end
+    def encode(text)
+       if text.respond_to?(:force_encoding)
+         text.force_encoding("UTF-8")
+       else
+         text
+       end
+    end
   
-  def kramdown(text)
-    encode(Kramdown::Document.new(text).to_html)
-  end
+    def decode_url(url)
+      if url.empty?
+        [PAGES/'index.md', settings.default_lang]
+      else
+        found = PAGES/url
+        found = found/:index if found.directory?
+        if found.replace_extension('.md').file?
+          [found.replace_extension('.md'), url.split('/').first]
+        else
+          not_found
+        end
+      end
+    end
 
-  def encode(text)
-     if text.respond_to?(:force_encoding)
-       text.force_encoding("UTF-8")
-     else
-       text
-     end
   end
-  
+  include Tools
   ############################################################## Auto start
 
   # start the server if ruby file executed directly

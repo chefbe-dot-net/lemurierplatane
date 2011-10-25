@@ -1,0 +1,9 @@
+<div class="container-fluid"">
+  <div class="sidebar">
+    +{menu}
+  </div>
+  <div class="content">
+    +{text}
+  </div>
+</div>
+

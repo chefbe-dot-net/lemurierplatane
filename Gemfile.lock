@@ -1,4 +1,10 @@
 GIT
+  remote: git://github.com/blambeau/epath.git
+  revision: 8c29236adc54209b6427bb502612fe8090b9a7e6
+  specs:
+    epath (0.0.1)
+
+GIT
   remote: git://github.com/blambeau/grit.git
   revision: 099fed8c32ffe910836abbabc9a6997de55e5783
   specs:
@@ -63,6 +69,7 @@ PLATFORMS
 
 DEPENDENCIES
   capybara (~> 1.1.0)
+  epath!
   grit!
   http (~> 0.0.1)
   kramdown (~> 0.13.3)

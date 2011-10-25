@@ -15,27 +15,24 @@ scripts:
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
     *{scripts as s}{<script src="@{s}"></script>}{!{"\n"}  }
-    ?{environment == :development}{
-      <script src="websync/js/websync-admin.js"></script>
-      <!-- <script>$(document).ready(function(){ websync.start("websync/") });</script> -->
-    }
   </head>
   <body>
     <div id="main" class="container">
       <div id="header">
         <<+{header.whtml share all}
       </div>
-      <div id="body" class="container-fluid">
-        <div class="sidebar">
-          +{menu}
-        </div>
-        <div class="content">
-          +{text}
-        </div>
+      <div id="body">
+        <<+{${template}.whtml share all}
       </div>
       <div id="footer">
         Condition Générales &mdash; Last update: 2011-10-24
       </div>
+    </div>
+    <div id="links" class="container">
+      <a class="left"  href="/"><img src="/css/images/tree.gif" alt="Le Mûrier Platane"></a>
+      <a class="right" href="http://www.gites-de-france.com/" target="_blank">
+        <img src="/css/images/gites-de-france.gif" alt="Gîtes de France">
+      </a>
     </div>
   </body>
 </html>
