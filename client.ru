@@ -1,5 +1,5 @@
 $LOAD_PATH.unshift(File.join(here = File.dirname(__FILE__), 'lib'))
-
+Encoding.default_external = Encoding::UTF_8 if RUBY_VERSION > "1.9"
 ENV["RACK_ENV"] = "development"
 
 require 'bundler'
