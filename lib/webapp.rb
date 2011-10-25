@@ -6,7 +6,7 @@ require 'sinatra/base'
 class WebApp < Sinatra::Base
 
   # PUBLIC of the web application
-  PUBLIC  = Path.dir.dir/:public
+  PUBLIC  = Path(__FILE__).dir.dir/:public
   PAGES   = PUBLIC/:pages
 
   ############################################################## Configuration
