@@ -10,6 +10,7 @@ group :runtime do
   #gem "websync", :path => "../websync"
 
   gem "http", "~> 0.0.1"
+  gem "launchy", "~> 2.0.5"
   gem "rake", "~> 0.9.2"
 end
 
