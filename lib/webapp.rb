@@ -25,14 +25,14 @@ class WebApp < Sinatra::Base
 
   get '/' do
     file, lang = decode_url("")
-    text = kramdown(encode(file.read))
+    text = kramdown(file.read)
     wlang(:lang => lang, :text => text, :template => :index)
   end
 
   get %r{^/(.+)} do
     file, lang = decode_url(params[:captures].first)
-    menu = kramdown(encode((PAGES/lang/"menu.md").read))
-    text = kramdown(encode(file.read))
+    menu = kramdown((PAGES/lang/"menu.md").read)
+    text = kramdown(file.read)
     wlang(:lang => lang, :text => text, :menu => menu, :template => :page)
   end
 
@@ -49,25 +49,15 @@ class WebApp < Sinatra::Base
   def wlang(ctx)
     ctx = ctx.merge(:environment => settings.environment)
     tpl = PUBLIC/:templates/"html.whtml"
-    wlangtpl = WLang::template(encode(tpl.read), "whtml")
-    wlangtpl.source_file = tpl
-    wlangtpl.instantiate ctx
+    WLang::file_instantiate(tpl, ctx)
   end
   
   module Tools
 
     def kramdown(text)
-      encode(Kramdown::Document.new(text).to_html)
+      Kramdown::Document.new(text).to_html
     end
 
-    def encode(text)
-       if text.respond_to?(:force_encoding)
-         text.force_encoding("UTF-8")
-       else
-         text
-       end
-    end
-  
     def decode_url(url)
       if url.empty?
         [PAGES/'index.md', settings.default_lang]
