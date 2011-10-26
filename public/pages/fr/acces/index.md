@@ -1,13 +1,13 @@
 # Accès par la route
 
-GPS LA 43°19'39'' - LA 3°02'31''
+GPS N 43°19'39'' - E 3°02'31''
 
 # Accès par avion
 
-* Aéroport de Béziers/Vias :
+* Aéroport de Béziers/Vias
   * Vol direct de Paris - Beauvais 
   * Vols internationaux directs de Bristol, Düsseldorf, Londres Luton, Oslo, Southampton, Stockholm
-* Aéroport Montpellier Méditerranée 
+* Aéroport Montpellier Méditerranée
   * Vols directs de Lyon, Nantes, Paris, Rennes, 
   * Vols internationaux directs de Amsterdam, Bruxelles/Charleroi, Copenhague, Francfort, Leeds, Londres, Madrid
 * Aéroport de Carcassonne
@@ -20,5 +20,4 @@ GPS LA 43°19'39'' - LA 3°02'31''
 
 Gare de Béziers (à 15 Km de Capestang) - TGV direct de Paris, Lyon, Lille, Bruxelles
 
-Pour connaître notre situation géographique: en France, à Capestang.
 

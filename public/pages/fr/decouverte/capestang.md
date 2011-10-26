@@ -2,7 +2,7 @@
 
 Situé au cœur du Languedoc et au sud du bassin de L'Orb, Capestang est un 
 village typique de la région. Entourée de ruelles pittoresques, une très belle 
-Collégiale gothique du XIIIe siècle domine le village.  Sur la place du village, 
+Collégiale gothique du 13e siècle domine le village.  Sur la place du village, 
 à l’ombre des platanes, un marché vous accueille le mercredi et le dimanche. Un 
 château médiéval abrite un plafond peint du 15e siècle de toute beauté. Bordé 
 au nord par le Canal du Midi et ses platanes centenaires, notre village est 

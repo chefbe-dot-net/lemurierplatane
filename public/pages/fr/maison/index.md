@@ -6,7 +6,7 @@ bâtiments :
 
 * une ancienne maison vigneronne avec le vieux pressoir, la partie la plus 
   vieille ;
-* une maison avec cour (où se trouve la cuisine) de la fin du XIXe siècle, qui 
+* une maison avec cour (où se trouve la cuisine) de la fin du 19e siècle, qui 
   fut construite contre l’ancienne vigneronne, celle-ci devenant une annexe 
   utilitaire de la nouvelle maison ;
 * un grand espace qui fut une cour ouverte sur la rue, avant d’être aménagé à 
@@ -15,7 +15,7 @@ bâtiments :
 
 Pour entrer dans la maison en venant du jardin, vous traverserez la partie la 
 plus ancienne du bâtiment, puisqu’il s’agit du rempart qui entourait Capestang 
-du XIIe au XIVe siècles. Comme il était d’usage depuis le Moyen Age, beaucoup 
+du 12e au 14e siècles. Comme il était d’usage depuis le Moyen Age, beaucoup 
 d’habitations étaient construites contre le rempart, qui faisait ainsi partie 
 intégrante de la maison. 
 
