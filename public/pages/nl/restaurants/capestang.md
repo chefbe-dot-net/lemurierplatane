@@ -1,6 +1,7 @@
 # De restaurants in Capestang zelf
 
 Op enkele minuutjes wandelen vindt u verscheidene eetgelegenheden:
+
 * La Table du Vigneron 
   * afstand 220 m
   * zeer mooi kader
@@ -12,15 +13,15 @@ Op enkele minuutjes wandelen vindt u verscheidene eetgelegenheden:
 * La Relais Bleu 
   * afstand 290 m
   * eenvoudige Franse keuken
-* La Galinière 
+* La GaliniÃ¨re 
   * afstand 350 m
   * terras in de zomer
   * geraffineerde traditionele keuken
-* Café la Grille
+* CafÃ© la Grille
   * afstand 350 m
   * typische zuid-Franse sfeer op het dorpsplein
   * traditionele keuken
-* La Batelière 
+* La BateliÃ¨re 
   * afstand 500 m
   * mooi zicht op de Canal du Midi
   * traditionele keuken 

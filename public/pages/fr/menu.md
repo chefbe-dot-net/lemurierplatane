@@ -1,3 +1,4 @@
+* [Accueil](/fr/index/)
 * [Chambres](/fr/chambres/)
   * [Chambre Bleue](/fr/chambres/chambre-bleue)
   * [Chambre Jaune](/fr/chambres/chambre-jaune)
@@ -11,7 +12,7 @@
   * [Extérieur](/fr/restaurants/proximite)
 * [Découverte](/fr/decouverte/)
   * [Capestang](/fr/decouverte/capestang)
-  * [Monuments] (/fr/decouverte/monuments)
+  * [Monuments](/fr/decouverte/monuments)
   * [Nature](/fr/decouverte/nature)
   * [Vélo](/fr/decouverte/velo)
   * [Gastronomie](/fr/decouverte/gastronomie)

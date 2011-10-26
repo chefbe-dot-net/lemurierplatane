@@ -1,23 +1,24 @@
-# Restaurants à proximité de Capestang
+# Restaurants Ã  proximitÃ© de Capestang
 
-Nombreuses possibilités de se restaurer dans les environs, voici quelques adresses que nous pouvons recommander :
+Nombreuses possibilitÃ©s de se restaurer dans les environs, voici quelques adresses que nous pouvons recommander :
+
 * La Tour Sarrasine
   * distance 4 km
-  * très jolie vue sur le Canal du Midi
-  * cuisine traditionnelle raffinée
-* La Table de Roueïre
+  * trÃ¨s jolie vue sur le Canal du Midi
+  * cuisine traditionnelle raffinÃ©e
+* La Table de RoueÃ¯re
   * distance 6 km
-  * très jolie vue sur les vignes
-  * cuisine traditionnelle raffinée
+  * trÃ¨s jolie vue sur les vignes
+  * cuisine traditionnelle raffinÃ©e
 * Auberge de la Croisade
   * distance 7,5 km
   * terrasse avec vue sur le Canal du Midi
-  * cuisine traditionnelle raffinée
+  * cuisine traditionnelle raffinÃ©e
 * La Terminus
   * distance 9 km
-  * joli cadre dans ancienne gare restaurée
+  * joli cadre dans ancienne gare restaurÃ©e
   * cuisine bistronomique
 * On Nems
   * distance 10 km
   * traiteur asiatique avec quelques tables
-  * excellente cuisine asiatique préparée sur place
+  * excellente cuisine asiatique prÃ©parÃ©e sur place

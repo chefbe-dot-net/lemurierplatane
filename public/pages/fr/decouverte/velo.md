@@ -1,6 +1,7 @@
 # Balades à vélo
 
 Selon vos capacités sportives, le cyclisme se pratique ici :
+
 * calmement, en empruntant les petites routes goudronnées qui partent de 
   Capestang en direction de Cuxac et de Poilhes, dans la plaine de l’Etang ;
 * sportivement, le long du Canal du Midi, sur l’ancien chemin de halage. Si le 
@@ -17,5 +18,6 @@ Il est possible de louer des vélos et des VTT à Capestang (près du Canal), à
 Béziers, à Narbonne, à Homps et au Somail. Nous mettons un garage à disposition 
 pour tous les deux roues.
 
+![Velo](/images/velo.jpg)
 ![Velo (détail)](/images/velo-detail.jpg)
 

@@ -15,3 +15,5 @@ Dernière information : « le mûrier platane » est le nom d’un arbre bien
 un croisement entre un mûrier et un platane qui, grâce à ses larges feuilles, 
 donne une belle ombre, très appréciée en été!
 
+![Accès à la maison](/images/accueil.jpg)
+![Accès à la maison](/images/accueil-detail.jpg)

@@ -1,3 +1,4 @@
+* [Welkom](/nl/index/)
 * [Kamers](/nl/kamers/)
   * [Blauwe kamer](/nl/kamers/kamer-blauw)
   * [Gele kamer](/nl/kamers/kamer-geel)

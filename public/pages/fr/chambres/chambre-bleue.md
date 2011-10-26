@@ -1,4 +1,4 @@
-# La Chambre Bleue
+# La Chambre Bleue [Tarifs & Infos](/fr/tarifs/)
 
 * Surface totale 31 m²
 * 1 lit 160 x 200 cm + 1 lit 140 x 190 cm en mezzanine

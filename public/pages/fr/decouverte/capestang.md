@@ -17,6 +17,6 @@ Jaurès ont un aspect méridional, ne ressemblent donc en rien à une pub anglai
 mais vous permettent de plonger dans l'ambiance capestanaise; ainsi, hors saison, 
 au Café La Grille, vous pouvez suivre les retransmissions de matchs de ... rugby.
 
-![Capestang](/images/capestang.jpg)
-![Capestang (détail)](/images/capestang-detail.jpg)
+![Place du village](/images/capestang.jpg)
+![Peinture plafond Moyen Age](/images/capestang-detail.jpg)
 
