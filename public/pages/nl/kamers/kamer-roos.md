@@ -1,6 +1,6 @@
 # De roze kamer
 
-* Totale oppervlakte 30 m²
+* Totale oppervlakte 30 mÂ²
 * Bed 160 x 200 cm
 * Badkamer met bad
 * Apart WC

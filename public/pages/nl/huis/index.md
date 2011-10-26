@@ -1,7 +1,7 @@
 # Het huis
 
 Het huis is samengesteld uit verscheidene elementen: 
-* een oude "vigneronne" - de traditionele woonst van de wijnboer – met, nog aanwezig, de oude druivenpers; 
+* een oude "vigneronne" - de traditionele woonst van de wijnboer - met, nog aanwezig, de oude druivenpers; 
 * de centrale woning met binnenplaatsje daterend van einde 19de eeuw, die tegen het wijnhuis werd aangebouwd, dat zo als bijgebouw diende
 * een tot woonkamer verbouwde schuur, 
 * een tuin, in 1950 door de toenmalige eigenaar aangekocht, met zwembad.  
