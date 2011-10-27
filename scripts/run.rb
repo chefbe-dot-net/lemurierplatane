@@ -1,3 +1,4 @@
+puts "Loading dependencies..."
 require 'bundler'
 Bundler.setup(:runtime)
 
@@ -9,11 +10,12 @@ t1 = Thread.new do
     Process.wait(pid)
   end
 end
+sleep(1)
 
 Thread.new do 
-  try, max = 0, 20
+  try, max = 0, 200
   begin
-    "Attempting to connect to it ..."
+    puts "Attempting to connect to the web server..."
     require 'http'
     Http.head "http://127.0.0.1:9292"
   rescue 

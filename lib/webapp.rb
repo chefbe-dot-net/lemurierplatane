@@ -25,15 +25,17 @@ class WebApp < Sinatra::Base
 
   get '/' do
     file, lang = decode_url("")
-    text = kramdown(file.read)
-    wlang(:lang => lang, :text => text, :template => :index)
+    text   = kramdown(file.read)
+    header = kramdown((PAGES/lang/"header.md").read)
+    wlang(:lang => lang, :text => text, :header => header, :template => :index)
   end
 
   get %r{^/(.+)} do
     file, lang = decode_url(params[:captures].first)
-    menu = kramdown((PAGES/lang/"menu.md").read)
-    text = kramdown(file.read)
-    wlang(:lang => lang, :text => text, :menu => menu, :template => :page)
+    menu   = kramdown((PAGES/lang/"menu.md").read)
+    header = kramdown((PAGES/lang/"header.md").read)
+    text   = kramdown(file.read)
+    wlang(:lang => lang, :text => text, :menu => menu, :header => header, :template => :page)
   end
 
   ############################################################## Error handling

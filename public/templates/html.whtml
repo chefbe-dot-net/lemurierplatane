@@ -15,7 +15,7 @@
   <body>
     <div id="main" class="container">
       <header>
-        <<+{header.whtml share all}
+        +{header}
       </header>
       <div id="body">
         <<+{${template}.whtml share all}
