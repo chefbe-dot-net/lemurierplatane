@@ -1,8 +1,7 @@
 body {
   font-family: 'Nunito', 'Palatino', sans-serif;
   background-image: url(../images/feuille.jpg);
-  min-height: 700px;
-}
+  min-height: 600px; }
 #main {
   background: white;
   padding: 10px 15px;
@@ -21,48 +20,46 @@ body {
   display: block;
   float: right; }
 
-#header {
+header {
   text-align: center; 
   border-bottom: 15px solid #627535; 
   margin-bottom: 10px; }
-#header .links {
-  position: absolute; }
-
-#header h1, 
-#header h2, 
-#header h3 {
+header h1, header h2, header h3 {
   margin: 0px;
   padding: 0px;
   color: #053100; }
-#header h1, #header h3 {
+header h3 {
+  padding-top: 2px; }
+
+#footer {
+  text-align: center;
+  margin-top: 10px;
+  border-top: 15px solid #627535; 
   padding-top: 5px; }
 
-.sidebar {
-  min-height: 550px; }
-.sidebar ul {
+nav ul {
   list-style: none;
   margin: 0px; padding: 0px; 
   padding-left: 15px; 
   padding-top: 15px; 
   background: #627535; }
-.sidebar ul li {
+nav ul li {
   padding-bottom: 10px; }
-.sidebar ul li a {
+nav ul li a {
   font-size: 1.4em;
   font-style: italic;
-  color: white; 
-  /* color: #053300; */ }
-.sidebar ul ul {
+  color: white; }
+nav ul ul {
   list-style: square; 
   font-size: 0.80em; 
   padding-top: 5px; }
-.sidebar ul ul li {
+nav ul ul li {
   padding-bottom: 0px; } 
 
 .content h1 {
   color: #053100;
   font-size: 1.75em; 
-  margin-bottom: 5px; }
+  margin-bottom: 3px; }
 .content h2 {
   color: #053100;
   font-size: 1.35em; 
@@ -72,10 +69,11 @@ body {
   padding-right: 10px;
   color: black;
   font-size: 1.1em;
-  text-align: justify; }
+  text-align: justify; 
+  margin-bottom: 5px; }
 .content ul li {
   color: black; 
-  padding-top: 5px; }
+  padding-top: 2px; }
 .content ul ul {
   list-style: square; 
   font-size: 1.0em; }
@@ -91,9 +89,3 @@ body {
   display: block;
   float: right;
   height: 250px; }
-
-#footer {
-  text-align: center;
-  margin-top: 10px;
-  border-top: 15px solid #627535; 
-  padding-top: 5px; }

@@ -1,4 +1,4 @@
-﻿#{
+#{
 stylesheets:
   - /css/style.css
   - /css/bootstrap.min.css
@@ -18,14 +18,14 @@ scripts:
   </head>
   <body>
     <div id="main" class="container">
-      <div id="header">
+      <header>
         <<+{header.whtml share all}
-      </div>
+      </header>
       <div id="body">
         <<+{${template}.whtml share all}
       </div>
       <div id="footer">
-        Condition Générales &mdash; Last update: 2011-10-24
+        <span>Condition Générales &mdash; Last update: 2011-10-24</span>
       </div>
     </div>
     <div id="links" class="container">

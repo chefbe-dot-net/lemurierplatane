@@ -1,7 +1,7 @@
 <div class="container-fluid"">
-  <div class="sidebar">
+  <nav class="sidebar">
     +{menu}
-  </div>
+  </nav>
   <div class="content">
     +{text}
   </div>
