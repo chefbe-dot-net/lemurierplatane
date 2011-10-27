@@ -1,4 +1,4 @@
-# The pink room
+# The pink room [Price list & info](/en/pricelist/)
 
 * Total surface area 30 m²
 * Bed 160 x 200 cm

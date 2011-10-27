@@ -2,7 +2,7 @@
 
 Within walking distance you will find several restaurants:
 
-* La Table du Vigneron 
+* [La Table du Vigneron](http://latable-duvigneron.magix.net/website#Accueil)
   * distance 220 m
   * welcoming surroundings
   * traditional cooking
@@ -18,7 +18,7 @@ Within walking distance you will find several restaurants:
   * distance 350 m
   * terrace
   * sophisticated cuisine
-* Café la Grille
+* [Café la Grille](http://www.cafedelagrille.fr/)
   * distance 350 m
   * friendly atmosphere on the central market place
   * traditional cooking - grill

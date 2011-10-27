@@ -1,4 +1,4 @@
-# La Chambre Verte
+# La Chambre Verte [Tarifs & Infos](/fr/tarifs/)
 
 * Surface totale 30 m²
 * 1 lit 160 x 200 cm + 1 lit 90 x 200 cm

@@ -1,4 +1,4 @@
-# La Chambre Rose
+# La Chambre Rose [Tarifs & Infos](/fr/tarifs/)
 
 * Surface totale 30 m²
 * Lit 160 x 200 cm

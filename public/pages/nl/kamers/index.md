@@ -6,3 +6,4 @@ De vier ruime kamers werden elk gedecoreerd in een eigen kleur en sfeer en zijn 
 
 ![Loopbrug](/images/chambres.jpg)
 ![Trap](/images/chambres-detail.jpg)
+

@@ -1,4 +1,4 @@
-# The blue room
+# The blue room [Price list & info](/en/pricelist/)
 
 * Total surface area 31 m²
 * 1 bed 160 x 200 cm + 1 bed 140 x 190 cm

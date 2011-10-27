@@ -2,7 +2,7 @@
 
 Op enkele minuutjes wandelen vindt u verscheidene eetgelegenheden:
 
-* La Table du Vigneron 
+* [La Table du Vigneron](http://latable-duvigneron.magix.net/website#Accueil) 
   * afstand 220 m
   * zeer mooi kader
   * traditionele en mediterrane keuken
@@ -17,7 +17,7 @@ Op enkele minuutjes wandelen vindt u verscheidene eetgelegenheden:
   * afstand 350 m
   * terras in de zomer
   * geraffineerde traditionele keuken
-* Café la Grille
+* [Café la Grille](http://www.cafedelagrille.fr/)
   * afstand 350 m
   * typische zuid-Franse sfeer op het dorpsplein
   * traditionele keuken

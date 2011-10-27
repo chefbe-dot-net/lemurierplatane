@@ -1,8 +1,8 @@
-# Les restaurants au coeur du village de Capestang
+# Les restaurants au coeur du village
 
 A quelques minutes à pied de notre maison d'hôtes, plusieurs restaurants:
 
-* La Table du Vigneron 
+* [La Table du Vigneron](http://latable-duvigneron.magix.net/website#Accueil) 
   * distance 220 m
   * très beau cadre
   * cuisine traditionnelle et méditerranéenne
@@ -18,7 +18,7 @@ A quelques minutes à pied de notre maison d'hôtes, plusieurs restaurants:
   * distance 350 m
   * terrasse en été
   * cuisine traditionnelle raffinée
-* Café la Grille
+* [Café la Grille](http://www.cafedelagrille.fr/)
   * distance 350 m
   * ambiance sympa sur la place de village
   * cuisine traditionnelle et grillades

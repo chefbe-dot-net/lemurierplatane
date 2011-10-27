@@ -1,4 +1,4 @@
-# De roze kamer
+# De roze kamer [Tarieven & Info](/nl/tarieven/)
 
 * Totale oppervlakte 30 m²
 * Bed 160 x 200 cm

@@ -1,4 +1,4 @@
-# De groene kamer
+# De groene kamer [Tarieven & Info](/nl/tarieven/)
 
 * Totale oppervlakte 30 m²
 * 1 bed 160 x 200 cm + 1 bed 90 x 200 cm

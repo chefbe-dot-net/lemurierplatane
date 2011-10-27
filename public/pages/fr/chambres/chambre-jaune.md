@@ -1,4 +1,4 @@
-# La Chambre Jaune
+# La Chambre Jaune [Tarifs & Infos](/fr/tarifs/)
 
 * Surface totale 32 m²
 * 1 lit 140 x 200 cm + 2 lits 90 x 200 cm en mezzanine

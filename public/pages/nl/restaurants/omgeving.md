@@ -1,24 +1,24 @@
-# Restaurants à proximité de Capestang
+# Restaurants in de buurt van Capestang
 
-Nombreuses possibilités de se restaurer dans les environs, voici quelques adresses que nous pouvons recommander :
+Keuze te over... Ziehier een greep uit de mogelijkheden:
 
-* La Tour Sarrasine
-  * distance 4 km
-  * très jolie vue sur le Canal du Midi
-  * cuisine traditionnelle raffinée
-* La Table de Roueïre
-  * distance 6 km
-  * très jolie vue sur les vignes
-  * cuisine traditionnelle raffinée
-* Auberge de la Croisade
-  * distance 7,5 km
-  * terrasse avec vue sur le Canal du Midi
-  * cuisine traditionnelle raffinée
-* La Terminus
-  * distance 9 km
-  * joli cadre dans ancienne gare restaurée
-  * cuisine bistronomique
-* On Nems
-  * distance 10 km
-  * traiteur asiatique avec quelques tables
-  * excellente cuisine asiatique préparée sur place
+* [La Tour Sarrasine](http://latoursarrasine.com/) - Poilhes
+  * afstand 4 km
+  * zeer aangename terras met zicht op de Canal du Midi
+  * verfijnde keuken
+* [La Table de Roueïre](http://www.latablederoueire.com/) - Quarante
+  * afstand 6 km
+  * mooi zicht op de omliggende wijngaarden
+  * verfijnde keuken
+* [Auberge de la Croisade](http://www.auberge-de-la-croisade.com/) - Quarante
+  * afstand 7,5 km
+  * terras op de oever van de Canal du Midi
+  * verfijnde keuken
+* [Le Terminus](http://www.leterminus-cote-gare.fr/) - Cruzy
+  * afstand 9 km
+  * aangename sfeer in een gerenoveerd stationsgebouw
+  * moderne keuken
+* On Nems - Ouveillan
+  * afstand 10 km
+  * kleine aziatische traiteur met enkele tafeltjes
+  * zeer lekkere ter plaatse bereide gerechten

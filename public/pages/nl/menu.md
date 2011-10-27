@@ -16,7 +16,7 @@
   * [Natuur](/nl/omgeving/natuur)
   * [Fietsen](/nl/omgeving/fietsen)
   * [Gastronomie](/nl/omgeving/gastronomie)
-  * [Links](/nl/links)
+  * [Links](/nl/omgeving/links)
 * [Tarieven & info](/nl/tarieven)
 * [Contact](/nl/contact)
 * [Wegwijs](/nl/wegwijs)
