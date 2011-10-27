@@ -1,21 +1,17 @@
-#{
-stylesheets:
-  - /css/style.css
-  - /css/bootstrap.min.css
-scripts:
-  - /js/jquery-1.6.4.min.js
-}
 <!DOCTYPE html>
 <html lang="${lang}">
   <head>
     <meta charset="utf-8" />
     <title>Le Mûrier Platane &mdash; Chambres d'hôtes à Capestang</title>
-    *{stylesheets as s}{<link rel="stylesheet" href="@{s}" />}{!{"\n"}  }
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/bootstrap.min.css" />
     <!--[if lt IE 9]>
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-    *{scripts as s}{<script src="@{s}"></script>}{!{"\n"}  }
-  </head>
+    <script src="/js/jquery-1.6.4.min.js"></script>
+    <script src="/js/websync-tools-0.0.1.js"></script>
+    <script>$(document).ready(function(){websync.tools.external_links_to_blank();});</script>
+ </head>
   <body>
     <div id="main" class="container">
       <header>
@@ -28,11 +24,11 @@ scripts:
         <span>Condition Générales &mdash; Last update: 2011-10-24</span>
       </div>
     </div>
-    <div id="links" class="container">
+    <nav id="links" class="container">
       <a class="left"  href="/"><img src="/css/images/tree.gif" alt="Le Mûrier Platane"></a>
       <a class="right" href="http://www.gites-de-france.com/" target="_blank">
         <img src="/css/images/gites-de-france.gif" alt="Gîtes de France">
       </a>
-    </div>
+    </nav>
   </body>
 </html>
