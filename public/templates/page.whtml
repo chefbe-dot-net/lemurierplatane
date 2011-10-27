@@ -2,8 +2,8 @@
   <nav class="sidebar">
     +{menu}
   </nav>
-  <div class="content">
+  <article>
     +{text}
-  </div>
+  </article>
 </div>
 

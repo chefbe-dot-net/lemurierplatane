@@ -56,36 +56,40 @@ nav ul ul {
 nav ul ul li {
   padding-bottom: 0px; } 
 
-.content h1 {
+article {
+  margin-left: 230px;
+  padding-right: 5px; }
+article h1 {
   color: #053100;
   font-size: 1.75em; 
   margin-bottom: 3px; }
-.content h2 {
+article h1 a {
+  display: block;
+  font-size: 16px;
+  float: right; }
+article h2 {
   color: #053100;
   font-size: 1.35em; 
   margin-bottom: 5px; }
-.content p,
-.content ul {
-  padding-right: 10px;
+article p,
+article ul {
   color: black;
   font-size: 1.1em;
   text-align: justify; 
   margin-bottom: 5px; }
-.content ul li {
+article ul li {
   color: black; 
   padding-top: 2px; }
-.content ul ul {
+article ul ul {
   list-style: square; 
   font-size: 1.0em; }
-.content ul ul li {
+article ul ul li {
   padding-top: 0px; }
-.content img {
-  max-height: 250px; }
-.content .imgl {
+article img {
   display: block;
-  float: left;
-  height: 250px; }
-.content .imgr {
-  display: block;
-  float: right;
-  height: 250px; }
+  max-height: 250px; 
+  padding-top: 10px;}
+article img:first-child {
+  float: left; }
+article img:last-child {
+  float: right; }
