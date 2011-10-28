@@ -25,9 +25,10 @@ class WebApp < Sinatra::Base
 
   get '/' do
     file, lang = decode_url("")
-    text   = kramdown(file.read)
+    images = (PUBLIC/:images).glob("*.jpg").collect{|img| img.basename}
+    text   = kramdown(WLang::file_instantiate(file, {:images => images}, "wlang/xhtml"))
     header = kramdown((PAGES/lang/"header.md").read)
-    wlang(:lang => lang, :text => text, :header => header, :template => :index)
+    wlang(:lang => lang, :text => text, :images => images, :header => header, :template => :index)
   end
 
   get %r{^/(.+)} do

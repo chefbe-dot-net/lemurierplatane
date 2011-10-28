@@ -2,6 +2,8 @@
 * [Nederlands](/nl)
 * [English](/en)
 
+<div id="gallery">*{images as i}{<img src="/images/${i}"/>}</div>
+
 ## Selected by
 
 * [Gites de France](http://www.gites-de-france.com/) -- 3 épis

@@ -93,10 +93,32 @@ article img:first-child {
 article img:last-child {
   float: right; }
 
+#index ul:first-child {
+  list-style: none; 
+  font-size: 1.50em; 
+  margin: 25px; 
+  text-align: center; }
+#index ul:first-child li {
+  display: inline; 
+  padding: 0px 50px; 
+  text-align: center; }
 #index ul:last-child {
+  clear: both;
   text-align: left;
   list-style: square;
   -moz-column-count: 2;
   -moz-column-gap: 35px; 
   -webkit-column-count: 2;
   -webkit-column-gap: 35px; }
+#index h1, #index h2 {
+  clear: both; }
+
+#gallery {
+  clear: both;
+  white-space: nowrap; 
+  overflow: hidden; }
+#gallery img { 
+  padding: 5px; 
+  height: 200px; 
+  display: inline; 
+  float: none; }
