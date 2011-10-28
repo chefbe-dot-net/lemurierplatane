@@ -31,5 +31,6 @@
         <img src="/css/images/gites-de-france.gif" alt="Gîtes de France">
       </a>
     </nav>
+    ?{environment == :production}{<<{analytics.html}}
   </body>
 </html>
