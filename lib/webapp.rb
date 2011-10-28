@@ -30,6 +30,15 @@ class WebApp < Sinatra::Base
     header = kramdown((PAGES/lang/"header.md").read)
     wlang(:lang => lang, :text => text, :images => images, :header => header, :template => :index)
   end
+  
+  get '/sitemap.xml' do
+    content_type "application/xml"
+    tpl = PUBLIC/:templates/"sitemap.whtml"
+    files = (PUBLIC/:pages).glob("**/*.md").reject{|f|
+      ["menu.md", "header.md"].include?(f.basename.to_s)
+    }.map{|f| f.extend(Path2URL)}
+    WLang::file_instantiate(tpl, :files => files)
+  end
 
   get %r{^/(.+)} do
     file, lang = decode_url(params[:captures].first)
@@ -77,6 +86,17 @@ class WebApp < Sinatra::Base
 
   end
   include Tools
+  
+  module Path2URL
+    def to_url
+      if basename.to_s == "index.md"
+        (to_s =~ /pages\/(.*\/)index\.md$/) && $1
+      else
+        (to_s =~ /pages\/(.*)\.md$/) && $1
+      end
+    end
+  end
+  
   ############################################################## Auto start
 
   # start the server if ruby file executed directly
