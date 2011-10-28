@@ -21,7 +21,7 @@
         <<+{${template}.whtml share all}
       </div>
       <div id="footer">
-        <a href="/downloads/conditions-generales.pdf" target="_blank">Condition Générales</a> &mdash; 
+        <a href="/downloads/conditions-generales.pdf" target="_blank">Conditions Générales</a> &mdash; 
         Last update: 2011-10-24
       </div>
     </div>

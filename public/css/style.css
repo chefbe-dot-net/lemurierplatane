@@ -76,6 +76,10 @@ article ul {
   font-size: 1.1em;
   text-align: justify; 
   margin-bottom: 5px; }
+article table {
+  color: black; }
+article table th {
+  text-align: center; }
 article ul li {
   color: black; 
   padding-top: 2px; }
