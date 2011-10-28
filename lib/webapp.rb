@@ -23,14 +23,6 @@ class WebApp < Sinatra::Base
 
   ############################################################## Routes
 
-  get '/' do
-    file, lang = decode_url("")
-    images = (PUBLIC/:images).glob("*.jpg").collect{|img| img.basename}
-    text   = kramdown(WLang::file_instantiate(file, {:images => images}, "wlang/xhtml"))
-    header = kramdown((PAGES/lang/"header.md").read)
-    wlang(:lang => lang, :text => text, :images => images, :header => header, :template => :index)
-  end
-  
   get '/sitemap.xml' do
     content_type "application/xml"
     tpl = PUBLIC/:templates/"sitemap.whtml"
@@ -40,12 +32,20 @@ class WebApp < Sinatra::Base
     WLang::file_instantiate(tpl, :files => files)
   end
 
+  get '/' do
+    file, lang = decode_url("")
+    images = (PUBLIC/:images).glob("*.jpg").collect{|img| img.basename}
+    text   = kramdown(WLang::file_instantiate(file, {:images => images}, "wlang/xhtml"))
+    info   = YAML::load((PAGES/lang/"info.yml").read)
+    wlang(:lang => lang, :text => text, :images => images, :info => info, :template => :index)
+  end
+  
   get %r{^/(.+)} do
     file, lang = decode_url(params[:captures].first)
     menu   = kramdown((PAGES/lang/"menu.md").read)
-    header = kramdown((PAGES/lang/"header.md").read)
     text   = kramdown(file.read)
-    wlang(:lang => lang, :text => text, :menu => menu, :header => header, :template => :page)
+    info   = YAML::load((PAGES/lang/"info.yml").read)
+    wlang(:lang => lang, :text => text, :menu => menu, :info => info, :template => :page)
   end
 
   ############################################################## Error handling

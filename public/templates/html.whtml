@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html lang="${lang}">
   <head>
-    <meta charset="utf-8" />
     <title>Le Mûrier Platane &mdash; Chambres d'hôtes à Capestang</title>
+    <meta name="keywords" content="${info['keywords'].join(', ')}">
+    <meta name="description" content="${info['description']}">
+    <meta charset="utf-8" />
     <link rel="stylesheet" href="/css/style.css" />
     <link rel="stylesheet" href="/css/bootstrap.min.css" />
     <!--[if lt IE 9]>
@@ -15,7 +17,17 @@
   <body>
     <div id="main" class="container">
       <header>
-        +{header}
+        <hgroup itemtype="http://data-vocabulary.org/Organization" itemscope>
+          <h1 itemprop="name">${info["title"]}</h1>
+          <h2>${info["subtitle"]}</h2>
+          <h3>
+            <span itemprop="address" itemscope>
+              +{info["contact"]["address"]} &mdash; +{info["contact"]["locality"]}
+            </span>
+            <span itemprop="tel">+{info["contact"]["phone"]}</span> &mdash; 
+            <span>+{info["contact"]["mail"]}</span>
+          </h3>
+        </hgroup>
       </header>
       <div id="body">
         <<+{${template}.whtml share all}
