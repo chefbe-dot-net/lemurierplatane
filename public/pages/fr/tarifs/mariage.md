@@ -1,6 +1,8 @@
-#  Formule "spécial mariages"
+#  Formules "spécial mariage"
 
-Vous êtes invité à un mariage ou à une autre festivité dans notre région?  Nous vous accueillerons avec plaisir dans notre maison. 
+Vous êtes invité à un mariage ou à une autre festivité dans notre région?
+
+Nous vous accueillerons avec plaisir dans notre maison. 
 
 Au vu de notre expérience, nous connaissons les desiderata de nos hôtes dans ces cas-là. Aussi sommes nous heureux de vous proposer nos formules "spécial mariage":
 
