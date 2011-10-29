@@ -20,7 +20,7 @@
   </tr>
   <tr>
     <td><a href="/fr/chambres/chambre-verte">verte</a></td>
-    <td>2 lits simples</td>
+    <td>2 lits</td>
     <td>55</td> <td>70</td> <td>-</td> <td>-</td>
   </tr>
   <tr>
