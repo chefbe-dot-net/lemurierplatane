@@ -2,7 +2,14 @@
 * [Nederlands](/nl)
 * [English](/en)
 
-<div id="gallery">*{images as i}{<img src="/images/${i}"/>}</div>
+<div id="gallery">
+  <img src="/images/index-canal.jpg"/>
+  <img src="/images/index-piscine.jpg"/>
+  <img src="/images/index-chateau.jpg"/>
+  <img src="/images/chambre-bleue.jpg"/>
+  <img src="/images/accueil.jpg"/>
+  <img src="/images/chambre-rose.jpg"/>
+</div>
 
 ## Selected by
 
