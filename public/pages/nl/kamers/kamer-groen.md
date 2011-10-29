@@ -7,6 +7,7 @@
 * Haardroger
 * Kleine koelkast 
 * Zicht op het dorp
+* Gratis WiFi
 
 ![De groene kamer](/images/chambre-verte.jpg)
 ![Detail van de groene kamer](/images/chambre-verte-detail.jpg)

@@ -7,6 +7,7 @@
 * Sèche-cheveux
 * Petit frigo
 * Vue sur jardin
+* WiFi gratuit
 
 ![La Chambre Jaune](/images/chambre-jaune.jpg)
 ![L'intérieur de la Chambre Jaune](/images/chambre-jaune-detail.jpg)

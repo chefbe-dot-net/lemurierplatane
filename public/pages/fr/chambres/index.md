@@ -11,9 +11,7 @@ Deux chambres offrent une vue sur le village de Capestang, les deux autres se
 trouvent côté jardin.
 
 Les quatre chambres spacieuses sont déclinées en quatre couleurs et décorations 
-différentes, et offrent toutes le même confort : salle d'eau ou salle de bain, 
-sèche-cheveux, WC séparé et privatif, coin salon, petit frigo, et accès WIFI 
-gratuit.
+différentes, et offrent toutes le même confort : salle de bain (baignoire ou douche), sèche-cheveux, WC séparé et privatif, coin salon, petit frigo, et accès WiFi gratuit.
 
 ![Les chambres du Mûrier Platane](/images/chambres.jpg)
 ![L'accès au chambres](/images/chambres-detail.jpg)

@@ -15,7 +15,7 @@ plus présent que d'autres, où les négoces ne sont pas de boutiques à souveni
 mais des lieux de rencontres des villageois. Les deux bistros sur la place Jean 
 Jaurès ont un aspect méridional, ne ressemblent donc en rien à une pub anglais, 
 mais vous permettent de plonger dans l'ambiance capestanaise; ainsi, hors saison, 
-au Café La Grille, vous pouvez suivre les retransmissions de matchs de ... rugby.
+dans les bistros du village, vous pouvez suivre les retransmissions de matchs de ... rugby.
 
 ![Place du village](/images/capestang.jpg)
 ![Peinture plafond Moyen Age](/images/capestang-detail.jpg)

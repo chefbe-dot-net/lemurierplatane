@@ -7,6 +7,7 @@
 * Hair dryer
 * Fridge/bar 
 * Looks out onto the garden
+* Free WiFi
 
 ![Blue room](/images/chambre-bleue.jpg)
 ![Detail](/images/chambre-bleue-detail.jpg)

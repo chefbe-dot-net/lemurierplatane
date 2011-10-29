@@ -16,7 +16,7 @@
   * [Nature](/fr/decouverte/nature)
   * [Vélo](/fr/decouverte/velo)
   * [Gastronomie](/fr/decouverte/gastronomie)
-  * [Liens](/fr/decouverte/liens/)
+  * [En savoir plus](/fr/decouverte/liens/)
 * [Tarifs & Infos](/fr/tarifs/)
 * [Contact](/fr/contact/)
 * [Accès](/fr/acces/)

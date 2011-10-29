@@ -13,7 +13,7 @@ une salle d’eau ou une salle de bain, et une toilette séparée.
 
 Dernière information : « le mûrier platane » est le nom d’un arbre bien d’ici, 
 un croisement entre un mûrier et un platane qui, grâce à ses larges feuilles, 
-donne une belle ombre, très appréciée en été!
+donne une belle ombre, très appréciée en été.
 
 ![Accès à la maison](/images/accueil.jpg)
 ![Accès à la maison](/images/accueil-detail.jpg)

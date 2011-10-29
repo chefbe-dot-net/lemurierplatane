@@ -7,6 +7,7 @@
 * Hair dryer
 * Fridge/bar 
 * Looks out onto the garden
+* Free WiFi
 
 ![Yellow room](/images/chambre-jaune.jpg)
 ![Detail](/images/chambre-jaune-detail.jpg)

@@ -7,6 +7,7 @@
 * Sèche-cheveux
 * Petit frigo
 * Vue sur village
+* WiFi gratuit
 
 ![La Chambre Verte](/images/chambre-verte.jpg)
 ![L'intérieur de la Chambre Verte](/images/chambre-verte-detail.jpg)

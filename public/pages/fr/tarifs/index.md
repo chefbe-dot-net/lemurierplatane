@@ -31,12 +31,12 @@
   <tr>
     <td><a href="/fr/chambres/chambre-jaune">jaune</a></td>
     <td>1 lit double et 2 lits simples</td>
-    <td>55</td> <td>70</td> <td>85*</td> <td>100*</td>
+    <td>55</td> <td>70</td> <td>85</td> <td>100</td>
   </tr>
 </table>
 
 * Nous acceptons les paiements par carte bleue et Visa, ainsi que les Chèques Vacances ancv.
-* Animaux non admis. Pour voir nos conditions générales: [cliquer ici](/downloads/conditions-generales.pdf)
+* Animaux non admis.
 * La taxe de séjour de 0,80 € par personne et par jour est inclue dans les prix, au profit de la Communauté des Communes Canal-Lirou. 
 * Nous vous signalons que notre maison - vu le nombre de différences de niveau à l'intérieur et à l'extérieur - n'est pas adaptée aux personnes à mobilité réduite.
 * La configuration pour 3 ou 4 personnes n'est pas disponible du 1er juin au 30 septembre. 

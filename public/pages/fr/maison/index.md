@@ -10,7 +10,7 @@ bâtiments :
   fut construite contre l’ancienne vigneronne, celle-ci devenant une annexe 
   utilitaire de la nouvelle maison ;
 * un grand espace qui fut une cour ouverte sur la rue, avant d’être aménagé à 
-  partir de 1970 en garages et - actuellement – séjour ;
+  partir de 1970 en grange et - actuellement – séjour ;
 * le jardin, ajouté à la propriété vers 1950.
 
 Pour entrer dans la maison en venant du jardin, vous traverserez la partie la 

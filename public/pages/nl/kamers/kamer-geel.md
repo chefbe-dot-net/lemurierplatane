@@ -7,6 +7,7 @@
 * Haardroger
 * Kleine koelkast 
 * Zicht op de tuin
+* Gratis WiFi
 
 ![De gele kamer](/images/chambre-jaune.jpg)
 ![Detail van de gele kamer](/images/chambre-jaune-detail.jpg)

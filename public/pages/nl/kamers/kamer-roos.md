@@ -8,6 +8,7 @@
 * Zithoek
 * Kleine koelkast 
 * Zicht op het dorp
+* Gratis WiFi
 
 ![De roze kamer](/images/chambre-rose.jpg)
 ![Detail van de roze kamer](/images/chambre-rose-detail.jpg)
