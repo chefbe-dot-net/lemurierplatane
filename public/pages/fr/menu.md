@@ -18,5 +18,6 @@
   * [Gastronomie](/fr/decouverte/gastronomie)
   * [En savoir plus](/fr/decouverte/liens/)
 * [Tarifs & Infos](/fr/tarifs/)
+  * [Formule "mariage"](/fr/tarifs/mariage)
 * [Contact](/fr/contact/)
 * [Accès](/fr/acces/)
