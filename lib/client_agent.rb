@@ -19,7 +19,26 @@ class ClientAgent < WebSync::ClientAgent
 
   private 
 
+    def restart_application
+      Bundler::with_original_env do
+        Dir.chdir(ROOT) do
+          logger.debug "Executing bundle install"
+          logger.debug `bundle install`
+        end
+      end
+    end
+
     def install_events
+
+      listen :"import-request" do |ag,evt,args|
+        logger.debug("User import-request received.")
+        sync_local
+      end
+      
+      listen :working_dir_synchronized do |*args|
+        logger.debug("Working dir synchronized... refreshing now.")
+        restart_application
+      end
 
       listen :"save-request" do |ag,evt,args|
         logger.debug("User save-request received.")
