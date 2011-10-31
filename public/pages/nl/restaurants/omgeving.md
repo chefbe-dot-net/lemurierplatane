@@ -4,7 +4,7 @@ Keuze te over... Ziehier een greep uit de mogelijkheden:
 
 * [La Tour Sarrasine](http://latoursarrasine.com/) - Poilhes
   * afstand 4 km
-  * zeer aangename terras met zicht op de Canal du Midi
+  * zeer aangenaam terras met zicht op de Canal du Midi
   * verfijnde keuken
 * [La Table de Roueïre](http://www.latablederoueire.com/) - Quarante
   * afstand 6 km
