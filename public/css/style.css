@@ -23,7 +23,10 @@ header {
   text-align: center; 
   border-bottom: 15px solid #627535; 
   margin-bottom: 10px; }
-header h1, header h2, header h3 {
+header h1, 
+header h2, 
+header h3,
+header a {
   margin: 0px;
   padding: 0px;
   color: #053100; }

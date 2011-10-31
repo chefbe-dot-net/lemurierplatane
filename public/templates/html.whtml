@@ -25,7 +25,7 @@
               +{info["contact"]["address"]} &mdash; +{info["contact"]["locality"]}
             </span>
             <span itemprop="tel">+{info["contact"]["phone"]}</span> &mdash; 
-            <span>+{info["contact"]["mail"]}</span>
+            <span><a href="mailto:+{info["contact"]["mail"]}">+{info["contact"]["mail"]}</a></span>
           </h3>
         </hgroup>
       </header>
