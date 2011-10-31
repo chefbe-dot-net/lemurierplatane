@@ -7,6 +7,10 @@ var websync = {
                   && (obj.hostname != location.hostname);
       };
       $('a:external').attr('target', '_blank');
+    },
+
+    image_tooltips: function() {
+      $("img[alt]").twipsy({title: "alt", placement: "right", offset: -100});
     }
   
   }
