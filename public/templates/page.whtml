@@ -1,5 +1,10 @@
 <div class="container-fluid"">
   <nav class="sidebar">
+    <div id="langs">
+      <a href="/fr">fr</a>
+      <a href="/nl">nl</a>
+      <a href="/en">en</a>
+    </div>
     +{menu}
   </nav>
   <article class="content">
