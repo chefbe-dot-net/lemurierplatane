@@ -40,7 +40,7 @@
       </div>
       <div id="footer">
         <a href="/downloads/conditions-generales.pdf" target="_blank">Conditions Générales</a> &mdash; 
-        Last update: 2011-10-24
+        <span>Last update: ${info["lastupdate"]}</span>
       </div>
     </div>
     <nav id="links" class="container">

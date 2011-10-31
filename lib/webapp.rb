@@ -6,7 +6,8 @@ require 'sinatra/base'
 class WebApp < Sinatra::Base
 
   # PUBLIC of the web application
-  PUBLIC  = Path(__FILE__).dir.dir/:public
+  ROOT    = Path(__FILE__).dir.dir
+  PUBLIC  = ROOT/:public
   PAGES   = PUBLIC/:pages
 
   ############################################################## Configuration
@@ -36,7 +37,7 @@ class WebApp < Sinatra::Base
     file, lang = decode_url("")
     images = (PUBLIC/:images).glob("*.jpg").collect{|img| img.basename}
     text   = kramdown(WLang::file_instantiate(file, {:images => images}, "wlang/xhtml"))
-    info   = YAML::load((PAGES/lang/"info.yml").read)
+    info   = info(lang)
     wlang(:lang => lang, :text => text, :images => images, :info => info, :template => :index)
   end
   
@@ -44,7 +45,7 @@ class WebApp < Sinatra::Base
     file, lang = decode_url(params[:captures].first)
     menu   = kramdown((PAGES/lang/"menu.md").read)
     text   = kramdown(file.read)
-    info   = YAML::load((PAGES/lang/"info.yml").read)
+    info   = info(lang)
     wlang(:lang => lang, :text => text, :menu => menu, :info => info, :template => :page)
   end
 
@@ -56,15 +57,24 @@ class WebApp < Sinatra::Base
   end
 
   ############################################################## Helpers
-
-  # Serves a given wlang file
-  def wlang(ctx)
-    ctx = ctx.merge(:environment => settings.environment)
-    tpl = PUBLIC/:templates/"html.whtml"
-    WLang::file_instantiate(tpl, ctx)
-  end
-  
   module Tools
+
+    def info(lang)
+      mtimef = if settings.environment == :production
+        ROOT/tmp/"restart.txt" 
+      else 
+        ROOT/"Gemfile.lock"
+      end
+      YAML::load((PAGES/lang/"info.yml").read).merge(
+        "lastupdate" => mtimef.mtime.strftime("%Y-%m-%d")
+      )
+    end
+
+    def wlang(ctx)
+      ctx = ctx.merge(:environment => settings.environment)
+      tpl = PUBLIC/:templates/"html.whtml"
+      WLang::file_instantiate(tpl, ctx)
+    end
 
     def kramdown(text)
       Kramdown::Document.new(text).to_html
