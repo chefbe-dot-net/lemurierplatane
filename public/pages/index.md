@@ -18,7 +18,7 @@
 * Guide [Cybevasion](http://www.cybevasion.fr/) de tourisme et d'hébergements
 * [Cap-location](http://www.cap-location.com/) Locations en France
 * [Logeren bij Belgen](http://www.bestchambresdhotes.com/) - Lannoo
-* Radio Vlaanderen Internationaal, [Rvi.be](http://www.rvi.be/)
+* [Petites annonces de particulier](http://www.vacances-location.net) - Locations vacances
 * [Chambresdhotes.org](http://www.chambresdhotes.org/)
 * [Chambresdhoteswijzer](http://www.chambresdhoteswijzer.nl/)
 * Les [chambres d'hôtes en France](http://www.dormirenfrance.fr/)
