@@ -61,7 +61,7 @@ class WebApp < Sinatra::Base
 
     def info(lang)
       mtimef = if settings.environment == :production
-        ROOT/tmp/"restart.txt" 
+        ROOT/"tmp"/"restart.txt" 
       else 
         ROOT/"Gemfile.lock"
       end
