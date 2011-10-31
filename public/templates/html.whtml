@@ -29,7 +29,7 @@
           <h3>
             <span itemprop="address" itemscope>
               +{info["contact"]["address"]} &mdash; +{info["contact"]["locality"]}
-            </span>
+            </span> &mdash;
             <span itemprop="tel">+{info["contact"]["phone"]}</span> &mdash; 
             <span><a href="mailto:+{info["contact"]["mail"]}">+{info["contact"]["mail"]}</a></span>
           </h3>

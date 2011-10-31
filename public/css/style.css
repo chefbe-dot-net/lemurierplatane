@@ -12,6 +12,8 @@ body {
   margin-left: -392px;
   top: 10px; 
   z-index: 0; }
+#links img {
+  max-height: 80px; }
 #links .left {
   display: block;
   float: left; }
