@@ -21,8 +21,8 @@ GPS N 43°19'39'' - E 3°02'31''
   * Vols directs de Paris 
   * Vols internationaux directs de Bruxelles/Charleroi, Dublin, Londres, Manchester, Southampton
 
-## Accès par le train
+## Accès par train
 
-Gare de Béziers (à 15 Km de Capestang) - TGV direct de Paris, Lyon, Lille, Bruxelles
+Gares de Béziers & Narbonne (à 15 Km de Capestang) - TGV direct de Paris, Lyon, Lille, Bruxelles
 
 
