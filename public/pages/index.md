@@ -21,7 +21,5 @@
 * [Petites annonces de particulier](http://www.vacances-location.net) - Locations vacances
 * [Chambresdhotes.org](http://www.chambresdhotes.org/)
 * [Chambresdhoteswijzer](http://www.chambresdhoteswijzer.nl/)
-* Les [chambres d'hôtes en France](http://www.dormirenfrance.fr/)
-* Locations de vacances, [1-gites.com](http://www.1-gites.com/)
 * Location vacances  [IHA.com](http://www.iha.fr/)
 * L'annuaire universel mobile [Ubiquo](http://www.ubiquo.info/lemurier)
