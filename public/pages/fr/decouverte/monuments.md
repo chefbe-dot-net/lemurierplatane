@@ -6,5 +6,5 @@ La vigne,  omniprésente en Languedoc, apporta une richesse considérable aux ha
 
 Le développement de la vigne, appuyé sur la croissance démographique, génère un commerce florissant qui bénéficie à un port comme Sète, à une ville de foire comme Pézenas, aux préfectures et sous-préfectures Montpellier, Perpignan, Béziers et Narbonne, villes que vous aurez grand plaisir à découvrir. 
 
-![Enserune](/images/monuments.jpg)
-![Carcassonne](/images/monuments-detail.jpg)
+![Vue depuis l'Oppidum d'Ensérune](/images/monuments.jpg)
+![La cité de Carcassonne](/images/monuments-detail.jpg)

@@ -4,6 +4,6 @@ Het oudste deel van het huis is een vroeger "wijnhuis": de wijnboeren woonden op
 Twee kamers geven uit op de oude woonkern van Capestang, de andere twee hebben zicht op de tuin.
 De vier ruime kamers werden elk gedecoreerd in een eigen kleur en sfeer en zijn zeer comfortabel: eigen badkamer, haardroger, apart toilet, zithoekje met een kleine koelkast en gratis WiFi.
 
-![Loopbrug](/images/chambres.jpg)
-![Trap](/images/chambres-detail.jpg)
+![De loopbrug naar de kamers](/images/chambres.jpg)
+![](/images/chambres-detail.jpg)
 

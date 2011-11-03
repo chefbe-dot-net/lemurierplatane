@@ -9,6 +9,6 @@
 * Vue sur jardin
 * WiFi gratuit
 
-![La Chambre Jaune](/images/chambre-jaune.jpg)
-![L'intérieur de la Chambre Jaune](/images/chambre-jaune-detail.jpg)
+![](/images/chambre-jaune.jpg)
+![](/images/chambre-jaune-detail.jpg)
 

@@ -8,5 +8,5 @@ De Languedoc-wijngaard is de oudste en grootste van Frankrijk. Reeds in de oudhe
 
 In onze regio, in de vallei van de Orb, vindt u de streekwijn "les vins de pays d'Oc" en de AOC Coteaux du Languedoc, waaronder de bekende Saint Chinian en Faugères. 
 
-![Cassoulet](/images/gastronomie.gif)
-![Wijn](/images/gastronomie-detail.gif)
+![](/images/gastronomie.gif)
+![](/images/gastronomie-detail.gif)

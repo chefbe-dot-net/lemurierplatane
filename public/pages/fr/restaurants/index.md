@@ -8,4 +8,4 @@ Découvrez les restaurants:
 * [à Capestang](/fr/restaurants/capestang)
 * [dans les environs](/fr/restaurants/proximite)
 
-![La table du vigneron](/images/restaurants.jpg)
+![La Table du Vigneron, à Capestang](/images/restaurants.jpg)

@@ -9,5 +9,5 @@
 * Vue sur jardin
 * WiFi gratuit
 
-![La Chambre Bleue](/images/chambre-bleue.jpg)
-![L'intérieur de la Chambre Bleue](/images/chambre-bleue-detail.jpg)
+![](/images/chambre-bleue.jpg)
+![](/images/chambre-bleue-detail.jpg)

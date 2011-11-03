@@ -4,4 +4,4 @@ Capestang is a very nice and typical village, and also an ideal starting point f
 
 
 ![Canal du Midi](/images/decouverte.jpg)
-![Nature (détail)](/images/nature-detail.jpg)
+![The flowering "garrigue"](/images/nature-detail.jpg)

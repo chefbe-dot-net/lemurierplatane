@@ -6,5 +6,5 @@ Onze woning is heel typisch voor de regio, maar biedt ook een heel aparte sfeer,
 
 En mocht u zich afvragen wat een "mûrier platane" feitelijk is : het is een typische boom van deze streek, een kruising tussen een moerbei en een plataan, die in de zomer goed van pas komt, dankzij de mooie schaduw die hij biedt...
 
-![Inkom tuin](/images/accueil.jpg)
-![Trap](/images/accueil-detail.jpg)
+![Zicht op de tuin](/images/accueil.jpg)
+![](/images/accueil-detail.jpg)

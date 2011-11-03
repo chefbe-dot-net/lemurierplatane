@@ -7,4 +7,4 @@ Discover the restaurants in:
 * [Capestang](/en/restaurants/capestang)
 * [The neighbourhood](/en/restaurants/neighbourhood)
 
-![La table du vigneron](/images/restaurants.jpg)
+![La table du vigneron, in Capestang](/images/restaurants.jpg)

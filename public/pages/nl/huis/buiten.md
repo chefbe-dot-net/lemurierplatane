@@ -8,5 +8,5 @@ Tot in het midden van de 20ste eeuw had het huis geen tuin, maar enkel een binne
 
 Deze centraal gelegen binnenplaats is bij mooi weer een gezellig oord voor het ontbijt. 
 
-![Tuin](/images/exterieur.jpg)
-![Zwembad](/images/exterieur-detail.jpg)
+![Terras in de tuin](/images/exterieur.jpg)
+![Het zwembad](/images/exterieur-detail.jpg)

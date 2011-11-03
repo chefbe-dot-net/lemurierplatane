@@ -16,6 +16,6 @@ clôturée pour plus de sécurité et une alarme a été mise en place.
 Au centre des différents bâtiments, une jolie cour fleurie est l'endroit idéal 
 pour prendre les petits déjeuners par beau temps.
 
-![L'extérieur de la maison](/images/exterieur.jpg)
-![L'extérieur de la maison (détail)](/images/exterieur-detail.jpg)
+![La terrasse](/images/exterieur.jpg)
+![Le coin piscine](/images/exterieur-detail.jpg)
 

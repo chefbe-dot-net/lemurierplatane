@@ -19,6 +19,6 @@ Faugères. A quelques kilomètres de Capestang, d'autres découvertes vous
 attendent : les vins du Minervois, les Corbières, le Fitou et les Vins de la 
 Clape.
 
-![Gastronomie](/images/gastronomie.gif)
-![Gastronomie (détail)](/images/gastronomie-detail.gif)
+![](/images/gastronomie.gif)
+![](/images/gastronomie-detail.gif)
 

@@ -17,6 +17,6 @@ Jaurès ont un aspect méridional, ne ressemblent donc en rien à une pub anglai
 mais vous permettent de plonger dans l'ambiance capestanaise; ainsi, hors saison, 
 dans les bistros du village, vous pouvez suivre les retransmissions de matchs de ... rugby.
 
-![Place du village](/images/capestang.jpg)
-![Peinture plafond Moyen Age](/images/capestang-detail.jpg)
+![La place du village](/images/capestang.jpg)
+![Détail du plafond peint du château de Capestang](/images/capestang-detail.jpg)
 

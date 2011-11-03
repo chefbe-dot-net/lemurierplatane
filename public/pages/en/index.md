@@ -7,4 +7,4 @@ Our house is typical of this region, yet very unusual in the way we have used va
 For your information: a “mûrier platane” is a tree which is very typical of this region, a cross between a mulberry tree and a plane tree. The very large leaves offer wonderful shade, much appreciated in the summer. 
 
 ![The garden](/images/accueil.jpg)
-![Stairs](/images/accueil-detail.jpg)
+![](/images/accueil-detail.jpg)

@@ -7,5 +7,5 @@ The swimming-pool (7 by 3.5m) is open from 10.00 am to 8.00 pm. We will ask you 
 
 The central courtyard is the ideal place for your breakfast in the summer.
 
-![Garden](/images/exterieur.jpg)
-![Swimming pool](/images/exterieur-detail.jpg)
+![A terrace in the garden](/images/exterieur.jpg)
+![The swimming pool](/images/exterieur-detail.jpg)

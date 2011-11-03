@@ -9,4 +9,4 @@ Ontdek de restaurants in:
 * [Capestang](/nl/restaurants/capestang)
 * [De omgeving](/nl/restaurants/omgeving)
 
-![La table du vigneron](/images/restaurants.jpg)
+![La table du vigneron, in Capestang](/images/restaurants.jpg)

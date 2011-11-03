@@ -6,4 +6,4 @@ The wine-cellar is on the ground-floor and was originally part of a typical “w
 This wine-cellar has been rebuilt specially for you: here you will find a library with a good selection of books (fiction and reference), tourist information and board games.
 
 ![The sitting room](/images/interieur.jpg)
-![The wine-cellar](/images/interieur-detail.jpg)
+![The hall and the small library](/images/interieur-detail.jpg)

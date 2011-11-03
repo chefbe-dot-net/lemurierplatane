@@ -6,5 +6,5 @@ In our own immediate area, the "Terres d'orb", the winemakers will offer you "Pa
 
 Travel a few kilometres and you will find the Minervois wines, the Corbieres, Fitou and the Vins de la Clape.
 
-![Vineyards](/images/vignes.jpg)
-![Wine](/images/gastronomie-detail.gif)
+![Vineyards near Capestang](/images/vignes.jpg)
+![](/images/gastronomie-detail.gif)

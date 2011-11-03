@@ -13,6 +13,6 @@ trouvent côté jardin.
 Les quatre chambres spacieuses sont déclinées en quatre couleurs et décorations 
 différentes, et offrent toutes le même confort : salle de bain (baignoire ou douche), sèche-cheveux, WC séparé et privatif, coin salon, petit frigo, et accès WiFi gratuit.
 
-![Les chambres du Mûrier Platane](/images/chambres.jpg)
-![L'accès au chambres](/images/chambres-detail.jpg)
+![La passerelle donnant accès aux chambres](/images/chambres.jpg)
+![](/images/chambres-detail.jpg)
 

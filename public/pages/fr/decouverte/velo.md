@@ -18,6 +18,6 @@ Il est possible de louer des vélos et des VTT à Capestang (près du Canal), à
 Béziers, à Narbonne, à Homps et au Somail. Nous mettons un garage à disposition 
 pour tous les deux roues.
 
-![Velo](/images/velo.jpg)
-![Velo (détail)](/images/velo-detail.jpg)
+![](/images/velo.jpg)
+![Le chemin de halage](/images/velo-detail.jpg)
 

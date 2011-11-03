@@ -4,5 +4,5 @@ Capestang ligt centraal in de regio Languedoc-Roussillon, en is een typisch zuid
 
 Capestang is alles behalve een museum, maar een dorp dat bruist van leven. De plaatselijke bevolking is sterk aanwezig en geniet ten volle van het sociaal contact, dat, zoals zo dikwijls in zonnige streken, heel veel op straat plaatsvindt.  De twee plaatselijke café's zijn typisch mediterraan, en bieden een echte Capestaanse sfeer: weinig voetbal op de TV-schermen, maar des te meer rugby!
 
-![Capestang marktplein](/images/capestang.jpg)
-![schildering middeleeuws plafond](/images/capestang-detail.jpg)
+![Het dorpsplein in Capestang](/images/capestang.jpg)
+![Detail van het beschilderd plafond in het kasteel van Capestang](/images/capestang-detail.jpg)

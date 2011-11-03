@@ -19,5 +19,5 @@ du 12e au 14e siècles. Comme il était d’usage depuis le Moyen Age, beaucoup
 d’habitations étaient construites contre le rempart, qui faisait ainsi partie 
 intégrante de la maison. 
 
-![La Maison](/images/maison.jpg)
-![L'intérieur de la maison](/images/maison-detail.jpg)
+![La maison vue de la piscine](/images/maison.jpg)
+![Vue du clocher de l'église de Capestang](/images/maison-detail.jpg)

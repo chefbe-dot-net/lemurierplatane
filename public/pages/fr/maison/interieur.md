@@ -15,6 +15,6 @@ nécessaires à la préparation de légers repas. Pour vos repas du soir, vous
 trouverez de nombreux restaurants dans le village de Capestang et dans les 
 alentours.
 
-![L'intérieur de la maison](/images/interieur.jpg)
-![L'intérieur de la maison (détail)](/images/interieur-detail.jpg)
+![Le séjour](/images/interieur.jpg)
+![Entrée et coin bibliothèque](/images/interieur-detail.jpg)
 
