@@ -9,5 +9,5 @@
 * Zicht op de tuin
 * Gratis WiFi
 
-![De blauwe kamer](/images/chambre-bleue.jpg)
-![Detail van de blauwe kamer](/images/chambre-bleue-detail.jpg)
+![](/images/chambre-bleue.jpg)
+![](/images/chambre-bleue-detail.jpg)

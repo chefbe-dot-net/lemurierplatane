@@ -9,5 +9,5 @@
 * Looks out onto the garden
 * Free WiFi
 
-![Blue room](/images/chambre-bleue.jpg)
-![Detail](/images/chambre-bleue-detail.jpg)
+![](/images/chambre-bleue.jpg)
+![](/images/chambre-bleue-detail.jpg)

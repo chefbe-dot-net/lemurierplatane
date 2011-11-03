@@ -9,5 +9,5 @@
 * Looks out onto the village
 * Free WiFi
 
-![Green room](/images/chambre-verte.jpg)
-![Detail](/images/chambre-verte-detail.jpg)
+![](/images/chambre-verte.jpg)
+![](/images/chambre-verte-detail.jpg)

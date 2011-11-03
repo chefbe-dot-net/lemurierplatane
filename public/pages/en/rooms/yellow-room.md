@@ -9,5 +9,5 @@
 * Looks out onto the garden
 * Free WiFi
 
-![Yellow room](/images/chambre-jaune.jpg)
-![Detail](/images/chambre-jaune-detail.jpg)
+![](/images/chambre-jaune.jpg)
+![](/images/chambre-jaune-detail.jpg)

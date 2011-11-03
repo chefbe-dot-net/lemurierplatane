@@ -10,5 +10,5 @@
 * Looks out onto the village
 * Free WiFi
 
-![The pink room](/images/chambre-rose.jpg)
-![Bathroom](/images/chambre-rose-detail.jpg)
+![](/images/chambre-rose.jpg)
+![](/images/chambre-rose-detail.jpg)
