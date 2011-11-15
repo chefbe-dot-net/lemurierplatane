@@ -15,9 +15,11 @@ Selon vos capacités sportives, le cyclisme se pratique ici :
   Guides spécialisés dans la bibliothèque de notre maison.
 
 Il est possible de louer des vélos et des VTT à Capestang (près du Canal), à 
-Béziers, à Narbonne, à Homps et au Somail. Nous mettons un garage à disposition 
+Béziers, à Narbonne, à Homps et au Somail, et en particulier à Paraza. Ce dernier loueur, ["Mellow Vélos"](http://www.mellowvelos.com), offre la possibilité de louer des vélos pour plusieurs jours, avec éventuelle livraison à Capestang pour la durée de la location.
+
+Nous mettons un garage à disposition 
 pour tous les deux roues.
 
-![](/images/velo.jpg)
+![Location de vélos "Mellow Vélos"](/images/mellow.jpg)
 ![Le chemin de halage](/images/velo-detail.jpg)
 
