@@ -20,6 +20,6 @@ Béziers, à Narbonne, à Homps et au Somail, et en particulier à Paraza. Ce de
 Nous mettons un garage à disposition 
 pour tous les deux roues.
 
-![Location de vélos Mellow Vélos](/images/mellow.jpg)
+
 ![Le chemin de halage](/images/velo-detail.jpg)
 
