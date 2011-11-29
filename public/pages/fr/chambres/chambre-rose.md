@@ -10,6 +10,6 @@
 * Vue sur village
 * WiFi gratuit
 
-![](/images/rose.jpg)
-
+![](/images/chambre-rose.jpg)
+![](/images/chambre-rose-detail.jpg)
 
