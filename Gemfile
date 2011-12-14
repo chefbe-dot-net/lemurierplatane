@@ -4,10 +4,10 @@ group :runtime do
   gem "sinatra", "~> 1.3.0"
   gem "wlang", "~> 0.10.2"
   gem "kramdown", "~> 0.13.3"
-  gem "grit", :git => "git://github.com/blambeau/grit.git"
-  gem "epath", :git => "git://github.com/blambeau/epath.git"
-  gem "websync", :git => "git://github.com/blambeau/websync.git"
-  #gem "websync", :path => "../websync"
+  gem "grit",    :git => "git://github.com/blambeau/grit.git"
+  gem "epath",   :git => "git://github.com/blambeau/epath.git"
+  gem "websync", :git => "git://github.com/blambeau/websync.git",
+                 :tag => "v0.0.1"
 
   gem "http", "~> 0.0.1"
   gem "launchy", "~> 2.0.5"
