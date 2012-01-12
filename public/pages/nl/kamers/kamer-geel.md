@@ -1,7 +1,7 @@
 # De gele kamer [Tarieven & Info](/nl/tarieven/)
 
 * Totale oppervlakte 32 m² op 2 verdiepingen
-* 1 bed 140 x 200 cm + 2 bedden 90 x 200 cm op de mezzanine
+* 1 bed 160 x 200 cm + 1 bed 130 x 190 cm op de mezzanine
 * Badkamer met douche
 * Apart WC
 * Haardroger
