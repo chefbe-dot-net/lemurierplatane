@@ -21,7 +21,7 @@
   <tr>
     <td><a href="/fr/chambres/chambre-verte">verte</a></td>
     <td>1 lit double et 1 lit simple</td>
-    <td>55</td> <td>70</td> <td>-</td> <td>-</td>
+    <td>55</td> <td>70</td> <td>85</td> <td>-</td>
   </tr>
   <tr>
     <td><a href="/fr/chambres/chambre-bleue">bleue</a></td>
