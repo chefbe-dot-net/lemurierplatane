@@ -8,13 +8,11 @@ group :runtime do
   gem "epath",   :git => "git://github.com/blambeau/epath.git"
   gem "websync", :git => "git://github.com/blambeau/websync.git",
                  :tag => "v0.0.1"
-
   gem "http", "~> 0.0.1"
   gem "launchy", "~> 2.0.5"
   gem "rake", "~> 0.9.2"
 end
 
 group :test do
-  gem "rake", "~> 0.9.2"
-  gem "capybara", "~> 1.1.0"
+  gem "rack-test", "~> 0.6.1"
 end
