@@ -13,10 +13,11 @@ body {
   top: 10px; 
   z-index: 0; }
 #links img {
-  max-height: 80px; }
+  max-height: 70px; }
 #links .left {
   display: block;
-  float: left; }
+  float: left; 
+  padding-left: 10px; }
 #links .right {
   display: block;
   float: right; }
