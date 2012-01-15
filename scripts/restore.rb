@@ -12,6 +12,14 @@ class Restore
     logio << what rescue nil
   end
 
+  def confirmed?(message)
+    begin
+      say(message)
+      c = $stdin.gets
+    end until c =~ /y(es)?|n(o)?/
+    c =~ /y(es)?/
+  end
+
   def shell(command)
     say "-"*35 + " #{command}\n"
     IO.popen(command, :err => [:child, :out]) do |io|
@@ -32,9 +40,13 @@ class Restore
 
   def restore!
     Dir.chdir(root) do
-      shell "git remote update"
-      shell "git reset --hard origin/master"
-      shell "bundle install --no-color"
+      if confirmed?("All local changes will be lost. Are you sure [y/n]?\n")
+        shell "git remote update"
+        shell "git reset --hard origin/master"
+        shell "bundle install --no-color"
+      else
+        say("cancelled.\n")
+      end
     end
   rescue Exception => ex
     say("something goes really bad here:")
