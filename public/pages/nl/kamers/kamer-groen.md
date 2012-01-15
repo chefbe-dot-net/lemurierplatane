@@ -9,5 +9,5 @@
 * Zicht op het dorp
 * Gratis WiFi
 
-![](/images/chambre-verte.jpg)
-![](/images/chambre-verte-detail.jpg)
+![](/images/chambre-vert.jpg)
+![](/images/chambre-vert-detail.jpg)
