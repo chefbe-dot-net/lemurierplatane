@@ -36,6 +36,9 @@ class Restore
       @logio = log
       restore!
     end
+  ensure
+    say("Done. Press enter.")
+    $stdin.gets
   end
 
   def restore!
