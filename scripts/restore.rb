@@ -21,13 +21,13 @@ class Restore
   end
 
   def shell(command)
-    say "-"*35 + " #{command}\n"
+    say "#{command}\n"
     IO.popen(command, :err => [:child, :out]) do |io|
       while s = io.gets
-        say(s)
+        say("\t#{s}")
       end
     end
-    say "-"*35 + " done (#{$?})\n\n"
+    say "done. (#{$?})\n\n"
   end
 
   def run!
