@@ -1,33 +1,30 @@
-require 'webapp_test'
-class LangTest < WebAppTest
+require 'case'
+class LangTest < Case
 
   def test_default_language
-    visit('/')
-    assert_equal "fr", first("html")["lang"]
+    get('/')
+    assert_equal "fr", body[/lang="(.*)"/, 1]
   end
 
   def test_english
-    visit('/en')
-    assert_equal "en", first("html")["lang"]
-
-    visit('/en/')
-    assert_equal "en", first("html")["lang"]
+    get('/en')
+    assert_equal "en", body[/lang="(.*)"/, 1]
+    get('/en/')
+    assert_equal "en", body[/lang="(.*)"/, 1]
   end
 
   def test_french
-    visit('/fr')
-    assert_equal "fr", first("html")["lang"]
-
-    visit('/fr/')
-    assert_equal "fr", first("html")["lang"]
+    get('/fr')
+    assert_equal "fr", body[/lang="(.*)"/, 1]
+    get('/fr/')
+    assert_equal "fr", body[/lang="(.*)"/, 1]
   end
 
   def test_dutch
-    visit('/nl')
-    assert_equal "nl", first("html")["lang"]
-
-    visit('/nl/')
-    assert_equal "nl", first("html")["lang"]
+    get('/nl')
+    assert_equal "nl", body[/lang="(.*)"/, 1]
+    get('/nl/')
+    assert_equal "nl", body[/lang="(.*)"/, 1]
   end
 
 end

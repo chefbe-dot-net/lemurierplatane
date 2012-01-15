@@ -1,5 +1,5 @@
-require 'webapp_test'
-class DecodeUrlTest < Test::Unit::TestCase
+require 'case'
+class DecodeUrlTest < Case
   include WebApp::Tools
 
   def _(path)

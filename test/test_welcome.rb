@@ -1,44 +1,38 @@
-require 'webapp_test'
-class WelcomeTest < WebAppTest
+require 'case'
+class WelcomeTest < Case
 
   def test_root
-    visit('/')
-    assert page.has_content?("Fran")
-    assert page.has_content?("Nederlands")
-    assert page.has_content?("English")
+    get('/')
+    assert_match /Fran/, body
+    assert_match /Nederlands/, body
+    assert_match /English/, body
   end
 
   def test_english
-    visit('/en')
-    assert page.has_content?("Welcome")
-
-    visit('/en/')
-    assert page.has_content?("Welcome")
-
-    visit('/en/index')
-    assert page.has_content?("Welcome")
+    get('/en')
+    assert_match /Welcome/, body
+    get('/en/')
+    assert_match /Welcome/, body
+    get('/en/index')
+    assert_match /Welcome/, body
   end
 
   def test_french
-    visit('/fr')
-    assert page.has_content?("Bienvenue")
-
-    visit('/fr/')
-    assert page.has_content?("Bienvenue")
-
-    visit('/fr/index')
-    assert page.has_content?("Bienvenue")
+    get('/fr')
+    assert_match /Bienvenue/, body
+    get('/fr/')
+    assert_match /Bienvenue/, body
+    get('/fr/index')
+    assert_match /Bienvenue/, body
   end
 
   def test_dutch
-    visit('/nl')
-    assert page.has_content?("Welkom")
-
-    visit('/nl/')
-    assert page.has_content?("Welkom")
-
-    visit('/nl/index')
-    assert page.has_content?("Welkom")
+    get('/nl')
+    assert_match /Welkom/, body
+    get('/nl/')
+    assert_match /Welkom/, body
+    get('/nl/index')
+    assert_match /Welkom/, body
   end
 
 end
