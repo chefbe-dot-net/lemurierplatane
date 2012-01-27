@@ -16,5 +16,6 @@
   * [The vineyards](/en/capestang/vineyards)
   * [More information](/en/capestang/links)
 * [Price list & info](/en/pricelist)
+  * [Marriages](/en/pricelist/wedding)
 * [Contact](/en/contact)
 * [Access](/en/access)

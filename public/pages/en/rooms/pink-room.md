@@ -5,7 +5,6 @@
 * Bathroom with bathtub
 * Separate W.C.
 * Hair dryer
-* Seating area
 * Fridge/bar 
 * Looks out onto the village
 * Free WiFi

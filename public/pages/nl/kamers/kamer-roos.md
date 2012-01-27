@@ -5,7 +5,6 @@
 * Badkamer met bad
 * Apart WC
 * Haardroger
-* Zithoek
 * Kleine koelkast 
 * Zicht op het dorp
 * Gratis WiFi

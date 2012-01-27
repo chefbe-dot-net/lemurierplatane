@@ -5,7 +5,6 @@
 * Salle de bain
 * WC privatif séparé
 * Sèche-cheveux
-* Coin salon
 * Petit frigo 
 * Vue sur village
 * WiFi gratuit
