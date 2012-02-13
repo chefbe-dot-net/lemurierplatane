@@ -9,7 +9,7 @@ A quelques minutes à pied de notre maison d'hôtes, plusieurs restaurants:
 * Le Provence 
   * distance 280 m
   * terrasse en été  
-  * cuisine traditionnelle et exellentes pizzas
+  * cuisine traditionnelle et excellentes pizzas
 * La Relais Bleu 
   * distance 290 m
   * ambiance routier
