@@ -23,3 +23,4 @@
 * [Chambresdhoteswijzer](http://www.chambresdhoteswijzer.nl/)
 * Location vacances  [IHA.com](http://www.iha.fr/)
 * L'annuaire universel mobile [Ubiquo](http://www.ubiquo.info/lemurier)
+* [Charmelogies](http://www.charmelogies.com/)
