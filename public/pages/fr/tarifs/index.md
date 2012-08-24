@@ -1,8 +1,10 @@
+Nos chambres sont ouvertes à la location du 1er avril au 30 juin et du 14 août au 30 septembre.
+
 # Nos tarifs
 
 <table>
   <tr>
-    <th colspan="6">Tarifs 2012 &mdash; prix par nuitée (€) &mdash; Petit déjeuner inclus</th>
+    <th colspan="6">Tarifs 2013 &mdash; prix par nuitée (€) &mdash; Petit déjeuner inclus</th>
   </tr>
   <tr>
     <th colspan="2"></th>
@@ -16,26 +18,25 @@
   <tr>
     <td><a href="/fr/chambres/chambre-rose">rose</a></td>
     <td>1 lit double</td>
-    <td>55</td> <td>70</td> <td>-</td> <td>-</td>
+    <td>60</td> <td>70</td> <td>-</td> <td>-</td>
   </tr>
   <tr>
     <td><a href="/fr/chambres/chambre-verte">verte</a></td>
     <td>1 lit double et 1 lit simple</td>
-    <td>55</td> <td>70</td> <td>85</td> <td>-</td>
+    <td>60</td> <td>70</td> <td>85</td> <td>-</td>
   </tr>
   <tr>
     <td><a href="/fr/chambres/chambre-bleue">bleue</a></td>
     <td>1 lit double et 2 lits simples</td>
-    <td>55</td> <td>70</td> <td>85</td> <td>100</td>  
+    <td>60</td> <td>70</td> <td>85</td> <td>100</td>  
   </tr>
   <tr>
     <td><a href="/fr/chambres/chambre-jaune">jaune</a></td>
     <td>1 lit double et 1 lit simple</td>
-    <td>55</td> <td>70</td> <td>85</td> <td>-</td>
+    <td>60</td> <td>70</td> <td>85</td> <td>-</td>
   </tr>
 </table>
 
-* Nous acceptons les paiements par carte bleue et Visa, ainsi que les Chèques Vacances ancv.
 * Animaux non admis.
 * La taxe de séjour de 0,80 € par personne et par jour est incluse dans les prix, au profit de la Communauté des Communes Canal-Lirou. 
 * Nous vous signalons que notre maison - vu le nombre de différences de niveau à l'intérieur et à l'extérieur - n'est pas adaptée aux personnes à mobilité réduite.

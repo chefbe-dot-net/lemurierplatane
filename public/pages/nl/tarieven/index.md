@@ -1,8 +1,10 @@
+U kan bij ons terecht van 1 april tot 30 juni, en van 14 augustus tot 30 september.
+
 # Tarieven & info
 
 <table>
   <tr>
-    <th colspan="6">Prijzen 2012 &mdash; prijs per overnachting (€) &mdash; Ontbijt inbegrepen</th>
+    <th colspan="6">Prijzen 2013 &mdash; prijs per overnachting (€) &mdash; Ontbijt inbegrepen</th>
   </tr>
   <tr>
     <th colspan="2"></th>
@@ -16,26 +18,25 @@
   <tr>
     <td><a href="/fr/kamers/kamer-roos">roze</a></td>
     <td>1 tweepersoonsbed</td>
-    <td>55</td> <td>70</td> <td>-</td> <td>-</td>
+    <td>60</td> <td>70</td> <td>-</td> <td>-</td>
   </tr>
   <tr>
     <td><a href="/fr/kamers/kamer-groen">groene</a></td>
     <td>1 tweepersoonsbed en 1 éénpersoonsbed</td>
-    <td>55</td> <td>70</td> <td>85</td> <td>-</td>
+    <td>60</td> <td>70</td> <td>85</td> <td>-</td>
   </tr>
   <tr>
     <td><a href="/fr/kamers/kamer-blauw">blauwe</a></td>
     <td>1 tweepersoonsbed en 2 éénpersoonsbedden</td>
-    <td>55</td> <td>70</td> <td>85</td> <td>100</td> 
+    <td>60</td> <td>70</td> <td>85</td> <td>100</td> 
   </tr>
   <tr>
     <td><a href="/fr/kamers/kamer-geel">gele</a></td>
     <td>1 tweepersoonsbed en 1 éénpersoonsbed</td>
-    <td>55</td> <td>70</td> <td>85</td> <td>-</td>
+    <td>60</td> <td>70</td> <td>85</td> <td>-</td>
   </tr>
 </table>
 
-* Wij aanvaarden Visa en Mastercard.
 * Huisdieren niet toegelaten.
 * Inbegrepen in onze tarieven : verblijfstaks van 0,80 € per persoon en per overnachting. De taks wordt geïnd door de eigenaar ten behoeve van de "Communauté des Communes Canal-Lirou". 
 * Door de vele niveauverschilen buiten en binnen, is ons huis niet geschikt voor personen met mobiliteitsproblemen.

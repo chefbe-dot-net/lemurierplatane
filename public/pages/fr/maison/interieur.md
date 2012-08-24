@@ -4,7 +4,7 @@ Nous avons voulu restaurer notre demeure dans des tons méditerranéens sobres,
 tout en respectant les matériaux et les volumes d'origine.
 
 Ainsi, le pressoir, auquel nous avons touché le moins possible, est quasiment 
-resté dans son jus, et est réservé à nos hôtes : coin bibliothèque avec de 
+resté dans son jus : vous y trouverez un coin bibliothèque avec de 
 nombreux livres, une information touristique complète et quelques jeux de 
 société. 
 
