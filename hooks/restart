@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
 git fetch origin
 git rebase origin/master
-bundle install
+bundle
 touch tmp/restart.txt
