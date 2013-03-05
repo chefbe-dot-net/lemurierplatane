@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+git remote update
+git reset --hard master
+bundle install
+touch tmp/restart.txt

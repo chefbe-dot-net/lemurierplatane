@@ -10,7 +10,9 @@ Dir.chdir(root = File.expand_path('../../',__FILE__)) do
   # update loadpath and load project
   $: << File.join(root,"lib")
   require 'app'
+  require 'rack/hooks'
   
+  use Rack::Hooks
   run App
 end
 

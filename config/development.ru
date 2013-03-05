@@ -10,7 +10,7 @@ Dir.chdir(root = File.expand_path('../../',__FILE__)) do
   # update loadpath and load project
   $: << File.join(root,"lib")
   require 'app'
-  
+
   use Rack::Nocache
   use Rack::CommonLogger
   run App
