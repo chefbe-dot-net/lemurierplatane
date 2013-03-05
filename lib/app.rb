@@ -1,6 +1,5 @@
 require 'polygon'
 require 'helpers'
-require 'awesome_print'
 
 class App < Polygon::Base
   helpers Helpers

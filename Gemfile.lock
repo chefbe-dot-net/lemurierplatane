@@ -45,7 +45,6 @@ GEM
   remote: http://rubygems.org/
   specs:
     addressable (2.2.8)
-    awesome_print (1.1.0)
     backports (2.8.2)
     citrus (2.4.1)
     coderay (1.0.9)
@@ -107,7 +106,6 @@ PLATFORMS
 
 DEPENDENCIES
   alf-core!
-  awesome_print
   eventmachine (~> 1.0.0.beta.4)
   guard (~> 1.1)
   guard-shell (~> 0.5.1)

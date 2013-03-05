@@ -18,6 +18,5 @@ group :development do
   gem "rspec",        "~> 2.10"
   gem "quickl",       "~> 0.4.2"
   gem "json",         ">= 0"
-  gem "awesome_print", ">= 0"
 end
 
