@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-git remote update
+git fetch origin
 git rebase origin/master
 bundle install
 touch tmp/restart.txt
