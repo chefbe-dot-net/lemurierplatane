@@ -1,0 +1,18 @@
+template-info:
+  name: "polygon.noe"
+  version: 0.1.0
+variables:
+  title: Le Mûrier Platane
+  url: http://www.lemurierplatane.fr
+  team:
+    - title:    Owner, Le Mûrier Platane
+      name:     Anne Wauter
+      site:     http://www.lemurierplatane.fr
+      location: Capestang, France
+    - title:    Developer
+      name:     Bernard Lambeau
+      site:     blambeau at gmail
+      twitter:  blambeau
+      location: Sombreffe, Belgium
+  bootstrap:
+    responsive: false
