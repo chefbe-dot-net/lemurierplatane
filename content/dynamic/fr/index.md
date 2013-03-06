@@ -3,7 +3,7 @@
 Notre maison, « Le Mûrier Platane » est situé au cœur du centre historique de Capestang, village bordé par le Canal du Midi, dans cette région ensoleillée qu’est le 
 Languedoc, à mi-chemin entre Béziers et Narbonne. Elle est tout à la fois typique de la région et très particulière grâce à l'assemblage 
 de divers édifices. Les différent espaces sont spacieux et 
-variés : un séjour de 35 m², une cave à vin aménagée, un coin bibliothèque, un 
+variés : un séjour de 34 m², une cave à vin aménagée, un coin bibliothèque, un 
 jardin avec piscine. Dans le séjour, un escalier et une passerelle offrent une 
 vue sur la façade de la maison « vigneronne », et permettent d’accéder aux 
 chambres. Les quatre chambres confortables ont chacune un petit frigo, 
