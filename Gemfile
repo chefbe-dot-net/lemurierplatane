@@ -1,4 +1,4 @@
-source :rubygems
+source 'http://rubygems.org/'
 
 gem "redcarpet", "~> 2.0.1"  
 gem "sinatra",  :git => "git://github.com/sinatra/sinatra"
