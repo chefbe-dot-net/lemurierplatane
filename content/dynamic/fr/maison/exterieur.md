@@ -2,7 +2,7 @@
 
 Vers le milieu du 20e siècle, le propriétaire précédent a pu acquérir un terrain 
 derrière la maison, qui est devenu le jardin. Il a fait percer porte et fenêtres 
-dans le mur arrière de sa maison qui n’était autre que le rempart du 12e siècle. 
+dans le mur arrière de sa maison qui n’était autre que le rempart du 13e siècle. 
 De plus, il a réduit l'épaisseur de ce mur de 1m35 à l’origine à 80 cm 
 d’épaisseur. Les fenêtres percées sont petites, comme toujours dans les pays 
 chauds, afin de garder un maximum de fraîcheur dans la maison.
