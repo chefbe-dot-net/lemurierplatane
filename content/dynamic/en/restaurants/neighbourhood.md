@@ -6,10 +6,6 @@ By way of example:
   * distance 4 km
   * very nice view of the Canal du Midi
   * traditional sophisticated cuisine
-* [La Table de Roueïre](http://www.latablederoueire.com/) - Quarante
-  * distance 6 km
-  * very nice view overlookink the vineyards
-  * traditional sophisticated cuisine
 * [Auberge de la Croisade](http://www.auberge-de-la-croisade.com/) - Quarante
   * distance 7,5 km
   * terrace with view of the Canal du Midi

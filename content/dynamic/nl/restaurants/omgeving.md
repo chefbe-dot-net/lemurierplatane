@@ -6,10 +6,6 @@ Keuze te over... Ziehier een greep uit de mogelijkheden:
   * afstand 4 km
   * zeer aangenaam terras met zicht op de Canal du Midi
   * verfijnde keuken
-* [La Table de Roueïre](http://www.latablederoueire.com/) - Quarante
-  * afstand 6 km
-  * mooi zicht op de omliggende wijngaarden
-  * verfijnde keuken
 * [Auberge de la Croisade](http://www.auberge-de-la-croisade.com/) - Quarante
   * afstand 7,5 km
   * terras op de oever van de Canal du Midi

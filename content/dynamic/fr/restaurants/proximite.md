@@ -6,10 +6,6 @@ Nombreuses possibilités de se restaurer dans les environs, voici quelques adres
   * distance 4 km
   * très jolie vue sur le Canal du Midi
   * cuisine traditionnelle raffinée
-* [La Table de Roueïre](http://www.latablederoueire.com/) - Quarante
-  * distance 6 km
-  * très jolie vue sur les vignes
-  * cuisine traditionnelle raffinée
 * [Auberge de la Croisade](http://www.auberge-de-la-croisade.com/) - Quarante
   * distance 7,5 km
   * terrasse avec vue sur le Canal du Midi
