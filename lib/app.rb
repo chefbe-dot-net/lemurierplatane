@@ -10,7 +10,7 @@ class App < Polygon::Base
   end
 
   get "/" do
-    wlang :index, locals: locals('fr', '')
+    wlang :index, locals: locals('fr', nil)
   end
 
   get %r{^/(fr|nl|en)/?$} do |lang|
