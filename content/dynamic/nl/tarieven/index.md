@@ -38,7 +38,7 @@ U kan bij ons terecht van 29 maart tot 30 juni, en van 14 augustus tot 25 septem
 </table>
 
 * Huisdieren niet toegelaten.
-* Inbegrepen in onze tarieven : verblijfstaks van 0,80 € per persoon en per overnachting. De taks wordt geïnd door de eigenaar ten behoeve van de "Communauté des Communes Canal-Lirou". 
+* Inbegrepen in onze tarieven : verblijfstaks van 0,40 € per persoon en per overnachting. De taks wordt geïnd door de eigenaar ten behoeve van de "Communauté des Communes Canal-Lirou". 
 * Door de vele niveauverschilen buiten en binnen, is ons huis niet geschikt voor personen met mobiliteitsproblemen.
 * De gele kamer is niet beschikbaar voor 3 personen van 1 juni tot 30 september.
 

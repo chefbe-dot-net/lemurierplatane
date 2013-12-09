@@ -22,7 +22,5 @@
 </div>
 <nav id="links" class="container">
   <a class="left"  href="/"><img src="/css/images/tree.gif"></a>
-  <a class="right" href="http://www.gites-de-france.com/" target="_blank">
-    <img src="/css/images/gites-de-france.gif">
   </a>
 </nav>

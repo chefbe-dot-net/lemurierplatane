@@ -38,6 +38,6 @@ Nos chambres sont ouvertes à la location du 29 mars au 30 juin et du 14 août a
 </table>
 
 * Animaux non admis.
-* La taxe de séjour de 0,80 € par personne et par jour est incluse dans les prix, au profit de la Communauté des Communes Canal-Lirou. 
+* La taxe de séjour de 0,40 € par personne et par jour est incluse dans les prix, au profit de la Communauté des Communes Canal-Lirou. 
 * Nous vous signalons que notre maison - vu le nombre de différences de niveau à l'intérieur et à l'extérieur - n'est pas adaptée aux personnes à mobilité réduite.
 * Dans la chambre jaune, la configuration pour 3 personnes n'est pas disponible du 1er juin au 30 septembre. 

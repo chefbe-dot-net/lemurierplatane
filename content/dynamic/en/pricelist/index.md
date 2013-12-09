@@ -38,7 +38,7 @@ Rooms available in April, May, June, August 14th - 25th, September
 </table>
 
 * No pets.
-* Visitor's tax amounted to 0,80 € per person and per night  for the benefit of the "Communauté des Communes Canal-Lirou" is included in the prices.  
+* Visitor's tax amounted to 0,40 € per person and per night  for the benefit of the "Communauté des Communes Canal-Lirou" is included in the prices.  
 * Due to several stairs in the house and the garden, it is not suitable to guests who have mobility problems.
 * The yellow room is not available for 3 persons between the 1st of June and the 30th of September. 
 * Credit cards are not accepted / only cash.
