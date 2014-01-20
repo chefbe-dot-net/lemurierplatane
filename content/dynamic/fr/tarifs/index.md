@@ -1,4 +1,4 @@
-Nos chambres sont ouvertes à la location du 29 mars au 29 juin et du 13 août au 25 septembre.
+Nos chambres sont ouvertes à la location du 29 mars au 29 juin et du 12 août au 25 septembre.
 
 # Nos tarifs
 

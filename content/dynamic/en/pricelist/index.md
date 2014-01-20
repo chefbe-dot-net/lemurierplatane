@@ -1,4 +1,4 @@
-Rooms available in April, May, June, August 13th - 25th, September 
+Rooms available in April, May, June, August 12th - 25th, September 
 
 # Price list & Info
 

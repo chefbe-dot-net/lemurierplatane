@@ -1,4 +1,4 @@
-U kan bij ons terecht van 29 maart tot 29 juni, en van 13 augustus tot 25 september.
+U kan bij ons terecht van 29 maart tot 29 juni, en van 12 augustus tot 25 september.
 
 # Tarieven & info
 
