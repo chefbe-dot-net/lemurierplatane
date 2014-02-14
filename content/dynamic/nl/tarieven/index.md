@@ -4,7 +4,7 @@ U kan bij ons terecht van 29 maart tot 29 juni, en van 12 augustus tot 25 septem
 
 <table>
   <tr>
-    <th colspan="6">Prijzen 2013 &mdash; prijs per overnachting (€) &mdash; Ontbijt inbegrepen</th>
+    <th colspan="6">Prijzen 2014 &mdash; prijs per overnachting (€) &mdash; Ontbijt inbegrepen</th>
   </tr>
   <tr>
     <th colspan="2"></th>
