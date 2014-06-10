@@ -18,7 +18,7 @@ Within walking distance you will find several restaurants:
   * distance 350 m
   * terrace
   * sophisticated cuisine
-* [Café la Grille](http://www.cafedelagrille.fr/)
+* Café la Grille
   * distance 350 m
   * friendly atmosphere on the central market place
   * traditional cooking - grill
