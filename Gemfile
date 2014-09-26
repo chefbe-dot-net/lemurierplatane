@@ -1,13 +1,13 @@
-source 'http://rubygems.org/'
+source "https://rubygems.org/"
 
 gem "redcarpet", "~> 2.0.1"  
-gem "sinatra",  :git => "git://github.com/sinatra/sinatra"
-gem "polygon",  :git => "git://github.com/blambeau/polygon"
-gem "alf-core", :git => "git://github.com/alf-tool/alf-core"
-gem 'wlang',    :git => "git://github.com/blambeau/wlang", :branch => :wlang2
+gem "sinatra",   "~> 1.4"
+gem "polygon",   :git => "git://github.com/blambeau/polygon"
+gem "alf-core",  "~> 0.16.3"
+gem 'wlang',     "~> 2.3"
 
 group :development do
-  gem "eventmachine", "~> 1.0"
+  gem "eventmachine", "~> 1.0.0.beta.4"
   gem "thin",         "~> 1.3"
   gem "http",         "~> 0.0.1"
   gem "launchy",      "~> 2.0"
@@ -19,4 +19,3 @@ group :development do
   gem "quickl",       "~> 0.4.2"
   gem "json",         ">= 0"
 end
-

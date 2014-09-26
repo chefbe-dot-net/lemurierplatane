@@ -29,11 +29,19 @@ describe "/sitemap.xml" do
     end
 
     it 'is not larger' do
-      (got - expected).should be_empty
+      minus = (got - expected)
+      unless minus.empty?
+        puts minus.to_text
+      end
+      minus.should be_empty
     end
 
     it 'is not smaller' do
-      (expected - got).should be_empty
+      minus = (expected - got)
+      unless minus.empty?
+        puts minus.to_text
+      end
+      minus.should be_empty
     end
   end
 
