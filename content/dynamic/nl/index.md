@@ -1,3 +1,22 @@
+---
+title: Le Mûrier Platane
+subtitle: Chambres d'hôtes in Capestang
+description: Le Mûrier Platane, een warm onthaal en een gastvrij huis. Vier grote en confortabele kamers.
+contact:
+  address: 4 bis, rue Voltaire
+  locality: 34310 Capestang
+  phone: +33 (0) 4 67937845
+  mail: lemurierplatane@orange.fr
+keywords:
+  - Gastenkamers
+  - Chambres d'hôtes
+  - B&b
+  - Bed and breakfast
+  - Canal du Midi
+  - Zwembad
+  - Carcassonne
+  - Zuid-Frankrijk
+---
 # Welkom
 
 « Le Mûrier Platane » bevindt zich in het historisch centrum van Capestang, een dorpje gelegen aan het Canal du Midi, halverwege Béziers en Narbonne in de zonnige Languedoc-regio . 

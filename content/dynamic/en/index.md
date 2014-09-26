@@ -1,3 +1,21 @@
+---
+title: Le Mûrier Platane
+subtitle: Bed and breakfast in Capestang
+description: Le Mûrier Platane, a warm welcome. Four comfortable and large bedrooms.
+contact:
+  address: 4 bis, rue Voltaire
+  locality: 34310 Capestang
+  phone: +33 (0) 4 67937845
+  mail: lemurierplatane@orange.fr
+keywords:
+  - Bed & breakfast
+  - Gite
+  - Chambres d'hotes
+  - Canal du Midi
+  - South of France
+  - Swimming pool
+  - Carcassonne
+---
 # Welcome
 
 “Le Mûrier Platane” is located at the heart of the historic centre of Capestang, a village bordered by the Canal du Midi in the sunny region of Languedoc and halfway between Béziers and Narbonne. 

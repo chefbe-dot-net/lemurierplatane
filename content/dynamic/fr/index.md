@@ -1,3 +1,7 @@
+---
+# no info here, see parent folder instead, as french information is used by
+# default on the index page
+---
 # Bienvenue
 
 Notre maison, « Le Mûrier Platane » est situé au cœur du centre historique de Capestang, village bordé par le Canal du Midi, dans cette région ensoleillée qu’est le 

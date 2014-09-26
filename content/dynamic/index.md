@@ -1,3 +1,25 @@
+---
+url: http://www.lemurierplatane.fr
+title: Le Mûrier Platane
+subtitle: Chambres d'hôtes à Capestang
+description: Le Mûrier Platane, une ambiance et un accueil chaleureux. Quatre chambres spacieuses tout confort.
+contact:
+  address: 4 bis, rue Voltaire
+  locality: 34310 Capestang
+  phone: +33 (0) 4 67937845
+  mail: lemurierplatane@orange.fr
+keywords:
+  - Chambres d'hôtes
+  - Gîte
+  - Bed and breakfast
+  - B&B
+  - Canal du Midi
+  - Sud de la France
+  - Carcassonne
+  - Piscine
+google:
+  tracker: UA-26636425-1
+---
 * [Français](/fr)
 * [Nederlands](/nl)
 * [English](/en)

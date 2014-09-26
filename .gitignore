@@ -26,4 +26,5 @@ tmp/restart.txt
 bundle
 vendor
 vendor/bundle
-Websitescripts/launch.command
+Website
+scripts/launch.command

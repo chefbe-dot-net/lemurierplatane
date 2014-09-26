@@ -26,17 +26,18 @@ class App < Polygon::Base
   end
 
   def locals(lang, path)
-    base = Path(settings.doc_folder)/lang
+    base   = Path(settings.doc_folder)/lang
 
     locals = case path
-    when NilClass          then page_locals('')
-    when ->(s){ s.empty? } then page_locals(lang)
+    when NilClass
+      page_locals('')
+    when ->(s){ s.empty? }
+      page_locals(lang)
     else
       page_locals("#{lang}/#{path}")
     end
 
     if locals
-      locals.merge! (base/'info.yml').load
       locals.merge! menu: (base/'menu.md').read
       locals.merge! last_update: last_update
     end
