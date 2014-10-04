@@ -17,5 +17,4 @@ group :development do
   gem "rack-test",    "~> 0.6.1"
   gem "rspec",        "~> 2.10"
   gem "quickl",       "~> 0.4.2"
-  gem "json",         ">= 0"
 end
