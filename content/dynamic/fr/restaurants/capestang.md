@@ -26,7 +26,4 @@ A quelques minutes à pied de notre maison d'hôtes, plusieurs restaurants:
   * distance 500 m
   * jolie vue sur le Canal du Midi
   * cuisine traditionnelle 
-* Le Caveau de la Place
-  * distance 320 m
-  * petite salle assez chaleureuse et terrasse en saison
-  * cuisine traditionnelle faite maison
+

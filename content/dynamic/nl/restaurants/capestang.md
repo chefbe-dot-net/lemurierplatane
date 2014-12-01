@@ -25,7 +25,3 @@ Op enkele minuutjes wandelen vindt u verscheidene eetgelegenheden:
   * afstand 500 m
   * mooi zicht op de Canal du Midi
   * traditionele keuken 
-* Le Caveau de la Place
-  * afstand 320 m
-  * gezellig interieur en terras in de zomermaanden
-  * traditionele keuken

@@ -26,7 +26,3 @@ Within walking distance you will find several restaurants:
   * distance 500 m
   * nice view of the Canal du Midi
   * traditional cooking
-* Le Caveau de la Place
-  * distance 320 m
-  * cosy inside
-  * homemade traditional cooking
