@@ -28,7 +28,6 @@
 * [Saint Guilhem le Désert](http://www.st-guilhem-le-desert.com)
 * [De "circulades"](http://www.circulades.com)
 * [Gallo-Romeins oppidum Ensérune](http://enserune.monuments-nationaux.fr/fr/)
-* [Abdij van Fontcaude](http://www.abbaye-de-fontcaude.com)
 * [Abdij van Fontfroide](http://www.fontfroide.com)
 * [Abdij van Valmagne](http://www.valmagne.com)
 * [Minerve](http://www.minerve-tourisme.fr)

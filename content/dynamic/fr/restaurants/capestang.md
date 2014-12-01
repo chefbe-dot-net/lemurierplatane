@@ -18,7 +18,7 @@ A quelques minutes à pied de notre maison d'hôtes, plusieurs restaurants:
   * distance 350 m
   * terrasse en été
   * cuisine traditionnelle raffinée
-* Café la Grille
+* [Café la Grille](http://www.cafecapestang.com/)
   * distance 350 m
   * ambiance sympa sur la place de village
   * cuisine traditionnelle et grillades

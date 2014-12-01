@@ -28,7 +28,6 @@
 * [Saint Guilhem le Désert](http://www.st-guilhem-le-desert.com)
 * [Les circulades](http://www.circulades.com)
 * [Site archéologique d’Ensérune](http://enserune.monuments-nationaux.fr/fr/)
-* [Abbaye de Fontcaude](http://www.abbaye-de-fontcaude.com)
 * [Abbaye de Fontfroide](http://www.fontfroide.com)
 * [Abbaye de Valmagne](http://www.valmagne.com)
 * [Minerve](http://www.minerve-tourisme.fr)
