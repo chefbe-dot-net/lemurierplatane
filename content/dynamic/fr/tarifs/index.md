@@ -4,7 +4,7 @@ Nos chambres sont ouvertes à la location du 29 mars au 29 juin et du 12 août a
 
 <table>
   <tr>
-    <th colspan="6">Tarifs 2014 &mdash; prix par nuitée (€) &mdash; Petit déjeuner inclus</th>
+    <th colspan="6">Tarifs 2015 &mdash; prix par nuitée (€) &mdash; Petit déjeuner inclus</th>
   </tr>
   <tr>
     <th colspan="2"></th>

@@ -4,7 +4,7 @@ Rooms available in April, May, June, August 12th - 25th, September
 
 <table>
   <tr>
-    <th colspan="6">Prices 2014 &mdash; per night (€) &mdash; Breakfast included</th>
+    <th colspan="6">Prices 2015 &mdash; per night (€) &mdash; Breakfast included</th>
   </tr>
   <tr>
     <th colspan="2"></th>
